@@ -1,3 +1,16 @@
+---
+Title: Paperclip Is Insane - Full Tutorial (TechWithTim)
+Author/Speaker: TechWithTim (YouTube tutorial presenter); discloses Hostinger partnership (10% discount code, 12+ month plans)
+Date: Unknown — recorded after ~48 hours of personal use; describes Paperclip as weeks-old "brand new tech"
+Duration: ~38:43 (from final transcript timestamp)
+Topics: AI companies vs single agents; demo newsletter company (CEO + 4 agents); Hostinger VPS one-click Docker deployment; admin credentials & env vars; SSH + docker exec; Claude Code / Codex CLI subscription auth vs API keys; company creation (mission/goal); adapters; working directories; adapter testing; heartbeat config; issue/Kanban workflow; inbox; goals & subgoals; integrations (YouTube analytics, ConvertKit, GitHub); hiring & approvals; CEO/agent prompt templates; budgets & cost tracking; security warnings; feedback loops; limitations
+Confidence: Medium — auto-generated (NoteGPT) transcript; "OpenClaw" rendered as "OpenClaude"; some commands approximate; presenter self-describes as new to the tool
+Reviewed: No — pending human review (15 min max)
+Status: Raw source; analyzed in reports/paperclip/PAPERCLIP_COMPREHENSIVE_SOURCE_REPORT_2026-07-20.md
+---
+
+# Raw Transcript (verbatim, auto-generated)
+
 00:00:00 - 00:00:51
 We've now entered the era of entire AI companies. Forget individual AI agents. We've had those now for what? 1 year? We're talking about full autonomous companies that run using multiple AI agents that are coordinated and chat with each other. Now, the way this is possible is using a new open-source framework called Paperclip. Now, this has been getting a ton of hype over the past few weeks here. It's got thousands, tens of thousands of stars on GitHub. And in this video, I'm going to show you
 
@@ -288,3 +301,44 @@ organizations, I think this is a really cool first step, and I'm excited to see 
 
 00:38:25 - 00:38:43
 like to get away from. So, anyways, guys, let me know what you think of this in the comments down below, and I'll look forward to seeing you in another video. >> [music]
+
+---
+
+## Actionable Takeaways
+
+### High Priority
+- Do not run autonomous agents on a personal machine: presenter warns of full file/home-network/root exposure; use a VPS or dedicated machine [03:40–04:28]. Aligns with QSL isolation-first posture.
+- Human acts as Board: CEO requests hires, human approves them one by one [00:50–01:44] [32:53–33:35]. This is the key governance hook already present in the product.
+- Paperclip is issue-driven, not a chatbot: create issues, set priority, assign (or leave unassigned for CEO triage) [20:30–21:22] [30:33–31:18].
+- Give the CEO an explicit heartbeat protocol, else it is reactive ("I don't have anything to do") [34:23–35:17].
+
+### Medium Priority
+- Heartbeat default is 1 hour; presenter used 600s (10 min) — frequency trades directly against cost [21:45–22:35] [22:10–23:07].
+- Adapter test validates auth before launch; failure messages identify missing keys/auth [18:54–19:42].
+- Subscription CLI auth (Claude Code, Codex `login --device-auth`) works headless via SSH + docker exec — but check provider ToS first; presenter is unsure it's permitted [13:31–14:49].
+- PR-only GitHub access for agents (no main-branch commits) is demonstrated as a control [28:08–28:58] [35:37–36:21].
+
+### Low Priority
+- 7–15 agents is a practical upper bound; more is hard to monitor [33:34–34:21].
+- Newsletter pipeline feedback loop (researcher → drafter → editor → reviewer → CEO → human) presented as effective pattern [33:57–34:48].
+- Multiple companies can run on one instance [37:09–38:06].
+
+### Questions to Verify
+- Whether Claude Code / Codex subscription terms permit this orchestration usage [07:11–07:58] [13:58–14:49].
+- Actual cost behavior of heartbeat-driven operation on metered APIs vs subscriptions [24:59–25:44].
+- Whether assigned issues truly auto-trigger immediately (presenter: "I believe") [24:13–25:01].
+- Docker isolation boundaries in the Hostinger one-click image (root inside container, env-var secrets visible in UI) [07:56–08:39] [09:02–09:55].
+
+### Potential Revenue Ideas
+- Secure installation + configuration service (VPS, Docker, auth, budgets, backups) — the setup is genuinely fiddly and tutorial-length.
+- Governance setup: CEO heartbeat protocols, hiring approval flows, prompt templates, PR-only repo access.
+- Managed monitoring / end-of-day review service for client companies.
+
+### Potential Doctrine Updates
+- Adopt Board-approval-of-hires as a hard gate (product supports it; make it non-optional in QSL configs).
+- Credentials belong in controlled configuration, not pasted into issues (presenter put a ConvertKit API key directly in an issue [27:19–28:10] — anti-pattern for QSL).
+
+### Potential Paperclip Improvements
+- Native secrets management (env vars are viewable in plain UI; keys get pasted into issues).
+- Stronger task disposition model: evidence attached, review outcome recorded.
+- Budget/heartbeat guardrails to prevent idle-loop token burn.

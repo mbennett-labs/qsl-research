@@ -1,3 +1,16 @@
+---
+Title: Founder of Paperclip shows how (companies.sh launch-day interview & screen-share demo)
+Author/Speaker: Paperclip founder (anonymous, cartoon avatar; states he comes from "the crypto world") interviewed by host "Andrew"; presented by Zapier
+Date: Unknown — recorded on companies.sh launch day; Paperclip stated to be "3 weeks old" at recording
+Duration: ~20:49 (from final transcript timestamp)
+Topics: Paperclip origin & value proposition; persistent agent instructions; skills & skills.sh; companies.sh one-command company installs; G Stack (Garry Tan); Remotion video demo; hiring agents with skills; PARA memory skill; routines (bookmark strategy report); Tailscale mobile access; OpenRouter free/experimental inference; company export & marketplace ideas; OpenClaw comparison
+Confidence: Medium — auto-generated (NoteGPT) transcript; product names and commands occasionally garbled (e.g., "NPX paper clip AI onboard"); creator is inherently promotional
+Reviewed: No — pending human review (15 min max)
+Status: Raw source; analyzed in reports/paperclip/PAPERCLIP_COMPREHENSIVE_SOURCE_REPORT_2026-07-20.md
+---
+
+# Raw Transcript (verbatim, auto-generated)
+
 00:00:00 - 00:00:53
 I created Paperclip to enable people to run a zero human business. Andrew, look at this. We've one shot an entire company. We just released companies.sh, which is like the app store for agentic companies. I don't want to oversell it. I just want to show what's possible today. Okay, let's do a screen share. I'll show you how to use Paperclip. Presented by Zapier, the AI automation company. You want to show me your company first? Sure. This would be the company that I use for running Paperclip itself. It's
 
@@ -117,3 +130,39 @@ sell individual agents. Maybe we just create something like, you know, like clip
 
 00:20:00 - 00:20:49
 OpenClaw, they can bring their OpenClaw into Paperclip. All right. >> Yep, absolutely. And I love OpenClaw. It's a great piece of software, but I created Paperclip because my OpenClaw just sort of started to fall apart and I couldn't understand what it was doing or what it was remembering or forgetting. And so, yeah, Paperclip is designed to be more human-friendly. All of us start off by creating some kind of project management. Now, it's all here. Bye, everyone.
+
+---
+
+## Actionable Takeaways
+
+### High Priority
+- Paperclip's core value is durable oversight of many agent sessions: tracked conversations, tracked costs, retrospective inspection [01:18–02:21]. Verify against the live product before relying on it.
+- Persistent per-agent instructions address agent amnesia ("no idea who they are… or what they worked on yesterday") [01:49–02:41]. This maps directly to QSL hiring packets / role charters.
+- Attach skills at hire time, and only to agents that need them: too many loaded skills degrade model performance [04:31–05:23] [06:00–06:59].
+
+### Medium Priority
+- Routines enable scheduled recurring work (e.g., nightly bookmark-analysis strategy report reviewed each morning) [16:02–17:45]. Useful pattern; needs stopping/notification conditions.
+- companies.sh: one-command install of whole companies (agents + skills); founder wants it to become a cross-platform standard, not Paperclip-only [07:57–09:13].
+- Export produces a shareable package with README and diagrams for GitHub submission [18:41–19:35].
+
+### Low Priority
+- Tailscale (free tier) gives remote/mobile access to a self-hosted instance [13:18–14:24].
+- OpenRouter sometimes hosts anonymous/experimental models with free inference [12:16–13:17]. Treat as unverified cost claim.
+
+### Questions to Verify
+- Exact onboarding command and package name (transcript renders it approximately as "NPX paper clip AI onboard") [11:14–12:14].
+- companies.sh command syntax, repository location, and whether the "open standard" claim is real [11:44–12:47].
+- Status of "maximizer mode" (announced, not released at recording) [09:04–10:17].
+- Status/timeline of the promised cloud-hosted Paperclip version [13:18–14:24].
+
+### Potential Revenue Ideas
+- Installation/customization services exist as a market pattern (OpenClaw installer economy) [14:26–15:31] — but the demoed office-hours skill pushed back: "services don't scale" [17:13–18:07]. Package as productized services, not hourly installs.
+- Governed company templates (curated skills + approval-gated hiring) as sellable exports.
+
+### Potential Doctrine Updates
+- Third-party skills and company templates are a supply-chain risk → require provenance review before installation.
+- "Agents checking each other's work" is presented as a best-practice pattern [07:57–09:13] → adopt, but with accountable human final review.
+
+### Potential Paperclip Improvements
+- Explicit task disposition (evidence → review → approve/return) rather than informal completion.
+- Built-in stopping conditions when no authorized work remains (counterpoint to "maximizer mode" [09:04–10:17]).
