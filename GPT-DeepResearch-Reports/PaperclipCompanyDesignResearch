@@ -1,0 +1,158 @@
+# Paperclip Company Design Research
+
+## Executive Summary
+
+The public evidence around Paperclip points to a consistent conclusion: the highest-performing designs are not “many prompts in a folder,” but **domain-bounded companies** with explicit roles, reporting lines, budgets, approval gates, and durable ticket threads. Paperclip’s own product materials describe it as a control plane for AI-agent companies built around org charts, governance, goal alignment, heartbeats, and cost controls rather than around chat sessions or ad hoc automations. citeturn4view0turn4view3turn23view0
+
+Ryan Carson’s public material reinforces that framing. Across the July 2026 podcast episode, the Apple Podcasts summary, Ryan’s own interview index, and O’Reilly coverage, the recurring pattern is: run agents in parallel cloud environments, automate repeatable loops, keep sensitive authority in human hands, route work across models by cost and capability, and spend a large share of human time making high-stakes decisions rather than performing routine execution directly. He publicly describes running five to ten cloud agents concurrently, doing roughly half his work from his phone, checking important threads on a roughly 25-minute cadence, and using automations such as an onboarding test, a production watchdog, and a self-improvement loop. citeturn27view5turn28view2turn28view1turn27view3
+
+The strongest public Paperclip examples also suggest that **company boundaries should generally follow a value stream, operating model, or risk boundary**, not just an org chart convenience. The official Paperclip companies catalog is explicitly domain-specific; it includes separate companies such as GStack, Superpowers Dev Shop, Aeon Intelligence, Trail of Bits Security, ClawTeam Capital, ClawTeam Engineering, and ClawTeam Research Lab rather than one giant generic super-company. Paperclip’s own FAQ also says one deployment can run many companies with complete data isolation, which makes multi-company separation a first-class design choice rather than a workaround. citeturn7view2turn25view2turn25view3turn25view4turn6view3
+
+For your purposes, the most important implication is practical: **TheBinMap should not begin as a broad “AI startup company.”** It should begin as a tightly scoped operating company focused on two revenue-adjacent loops: processing store submissions into publishable listings and turning inbound email into triaged, evidence-backed draft replies with human approval on outbound sends. That recommendation is strongly aligned with Paperclip’s official support and operations patterns, which emphasize queue triage, grounded drafts, named escalation owners, routines, exception handling, and audit trails. citeturn22view0turn22view1
+
+## What the public evidence actually shows
+
+Public evidence is strongest on **Paperclip’s primitives and public templates**, and thinner on independently audited case studies of long-running third-party deployments. The official product pages and docs are clear about core mechanics: company-scoped entities, org charts, heartbeats, budgets, approval gates, task ownership, issue trees, audit trails, multi-company isolation, and bring-your-own-agent adapters. The official companies catalog provides many example company names and structures, but those examples are best understood as public installable templates and community packages, not as independently validated proof that each template is operating at scale in production. citeturn6view3turn6view5turn16view3turn4view1turn25view0
+
+What is directly evidenced in official Paperclip materials is substantial. Agents wake in short bursts called heartbeats rather than running continuously by default; the first agent in a company is always the CEO; roles persist independently of the underlying model; managers are expected to decompose work into issue trees; blocked work carries named owners; “done” is supposed to be verified, not merely asserted; and controlled actions can be gated for human review. citeturn12view0turn23view0turn15view2turn16view0turn15view0
+
+What is directly evidenced from Ryan Carson’s side is also fairly consistent across sources. Ryan publicly presents Untangle as a solo-founder company run with AI agents across engineering, operations, sales, marketing, calendar, and product development; O’Reilly describes that model as a “code factory,” and Ryan’s own videos page points to agent use not just in coding but in operations, sales, calendar, marketing, and product development. The July 2026 podcast summary adds concrete operating details: cloud VMs, mobile oversight, periodic triage, key segregation, model routing, and automation loops. citeturn29view2turn29view1turn28view2turn28view0
+
+Where the evidence becomes more inferential is in deciding the “best” org shape for maximum efficiency. No public source offers a single empirically proven universal Paperclip org chart. Instead, the repeatable pattern across official docs, the company catalog, and Ryan’s public operating philosophy is that **successful designs keep scope narrow, roles explicit, workflows verifiable, and governance real**. That is the level at which the evidence is strongest. citeturn23view0turn16view0turn7view2turn27view7
+
+## Operating principles that repeat
+
+The most durable principle is that Paperclip is built around **roles, not chats**. The official org chart page says the interface is meant to reflect how a company runs: roles, reporting lines, delegation, escalation, and mixed human-plus-agent membership. The official agents guide similarly treats agents as employees that wake, work, and go dormant, with persistent role instructions and budgets coordinating their work. citeturn23view0turn12view0
+
+A second principle is that **the CEO is primarily a coordinator, not the main worker**. Official Paperclip materials repeatedly describe manager agents as taking goals, breaking them into issue trees, and assigning work to the best-suited specialist. The Company Wizard plugin says every company can start with just the CEO, but responsibilities shift automatically when specialist roles are added; for example, engineers take over implementation, product owners take over backlog management and auto-assignment, and DevOps takes over CI/CD and monitoring. That implies a design philosophy where the CEO should increasingly become a routing, hiring, and escalation role rather than a direct execution bottleneck. citeturn23view0turn8view3
+
+A third principle is that **plans, tickets, and verification matter more than conversational cleverness**. Paperclip’s tasks and governance pages are explicit that plans should be approved before work fans out, task trees should carry dependencies, and closed work should pass through QA, approvers, or reviewers with attached evidence such as tests, screenshots, or links. O’Reilly’s discussion of Ryan Carson’s “code factory” aligns with that pattern by emphasizing loops, notebooks, and repeatable processes over one-shot inspiration. citeturn15view0turn16view0turn16view3turn29view1
+
+A fourth principle is that **skills and procedures should be versioned and composable**. Official Paperclip guidance recommends splitting senior-agent instructions into `AGENTS.md`, `SOUL.md`, `HEARTBEAT.md`, and `TOOLS.md`, while the Company Wizard and companies-tool both push modular packaging: company metadata, agent definitions, projects, tasks, and reusable skills defined as files. Paperclip’s operations page says procedures can be encoded as skills and versioned like code. citeturn12view0turn9view0turn22view1
+
+A fifth principle is that **efficiency comes from exception handling, not maximum agent motion**. Paperclip’s support and operations pages are especially clear here: support agents triage, classify, and draft, but judgment calls escalate to named humans; routines run recurring procedures and surface only exceptions; blocked work arrives with context and a recommendation. Ryan Carson’s public “production watchdog” pattern sounds like the same philosophy applied at founder level: an executive summary of what changed, linked to the real UI, instead of constant immersion in raw execution threads. citeturn22view0turn22view1turn27view3
+
+## Designing companies and CEOs
+
+The public company catalog strongly suggests that a **good company boundary is a durable operating mission**, not merely a staffing convenience. The catalog emphasizes domain-specific companies rather than generic agent teams, and public examples separate investment research, software engineering, research automation, security auditing, consulting, creative work, and game production into distinct companies. That pattern is especially visible in the ClawTeam trio: ClawTeam Capital, ClawTeam Engineering, and ClawTeam Research Lab are separate companies even though they share a source lineage. citeturn7view4turn25view2turn25view3turn25view4
+
+From that evidence, the best design rule is: create a new Paperclip company when you have a different combination of **mission, outputs, risk posture, skills, approval rules, or reporting cadence**. That is an inference, but it is grounded in how Paperclip itself models companies, how its official templates are structured, and how multi-company isolation is described in the product. citeturn6view3turn25view0turn7view2
+
+On CEO design, the clearest official and community pattern is that the CEO should own **goal setting, plan creation, team composition, delegation, and escalation handling**. The official docs describe the CEO-first flow as mandatory. The org chart page describes managers as delegators. The Company Wizard states that every company begins with just the CEO and that the CEO remains the fallback when specialists are missing. This is a strong signal that the best CEO prompt and instruction bundle should emphasize delegation rules, scope boundaries, organizational maintenance, and escalation logic. citeturn12view0turn23view0turn8view3
+
+The public installable companies also show that small, explicit teams are a common pattern. GStack uses five agents. Superpowers Dev Shop uses four. Aeon Intelligence uses four. AgentSys Engineering uses five. ClawTeam Engineering uses five. Trail of Bits Security is larger at 28, but it is also a highly specialized audit firm. This suggests that the “efficient default” is not a 40-agent org chart on day one; it is usually a **CEO plus a handful of clearly differentiated specialists**. citeturn8view2turn8view0turn25view3turn8view1
+
+Company Wizard’s role system reinforces that interpretation. Roles are additive, capabilities shift automatically, and no role is truly missing because the next best available role steps in. That means a company can start lean without collapsing—but it also means every additional role should be justified by a real repeated load, not by organizational aesthetics. citeturn8view3turn8view5
+
+## Governance, cost control, and attention management
+
+Paperclip’s governance model is unusually explicit for an agent orchestration product. Official materials say that sensitive actions can be gated, plans can require approval before staffing, budget increases can require approval, and every run records commands, artifacts, steps, and costs. The product materials specifically mention gating external posts, email sends, infrastructure changes, and above-threshold spend. That is exactly the infrastructure you would want for an email operations company where customer communication and directory publication should remain human-authorized. citeturn15view0turn22view0turn16view0
+
+Cost control is also a first-class principle rather than an afterthought. Paperclip’s official budgets page says caps are enforced, not advisory; agents stop at the limit; top-ups are approvals; costs roll up by task, goal, and role; and operators can tune model assignments so inexpensive models handle mechanical work while stronger models handle judgment. Ryan Carson’s public heuristic—around $5,000 per month per engineering “employee” after a $20,000 token month—fits that broader logic, though his number should be understood as one operator’s engineering-heavy benchmark rather than a universal target. citeturn15view1turn28view2turn27view8
+
+On attention management, Ryan Carson’s public comments are especially revealing. The Apple Podcasts summary says he checks important threads on a roughly 25-minute cadence, does about half his work from his phone, and uses a “production watchdog” and self-improvement loop to keep summary signals flowing. Paperclip’s own support and operations materials follow the same pattern structurally: grounded drafts, named escalations, exception inboxes, and daily briefs. The product direction here is not “watch every agent all the time,” but “be continuously reachable for high-value decisions while the system absorbs routine motion.” citeturn28view1turn28view2turn27view3turn22view0turn22view1
+
+Public evidence for Paperclip mobile workflows is thinner than for governance and tasks. The agents guide notes that mobile uses a forced list view, and the FAQ says solo operators can use Tailscale to access Paperclip on the go. I did not find public evidence of a mature, dedicated “board packet” mobile interface. That is an important gap: the public philosophy strongly points toward executive summaries and exception handling, but the product evidence suggests that a purpose-built executive attention layer is still an opportunity rather than a finished public feature. citeturn12view0turn6view7
+
+The best-performing operating doctrine, therefore, is not raw autonomy. It is **bounded autonomy with compressed human attention**: agents process, classify, draft, verify, and recommend; humans approve, override, and handle ambiguous exceptions. That conclusion is directly supported by Paperclip’s governance model, its support/operations patterns, and Ryan Carson’s public approach to production authority and thread triage. citeturn15view0turn22view0turn22view1turn28view0turn28view1
+
+## Recommendations for TheBinMap, QuantumShield Labs, Directory Factory, and client deployments
+
+For **TheBinMap Email Operations**, the best design is a narrow company centered on inbox and submission flow, not on broad startup simulation. The official support pattern maps almost perfectly: always-on triage, grounded drafts, named human escalation, and human-on-send gates. The official operations pattern also fits store submission workflows: encode the procedure as a routine, log every step, surface only exceptions, and make process changes versioned and auditable. citeturn22view0turn22view1
+
+That leads to a recommended first operating company like this:
+
+```text
+TheBinMap Email Operations
+CEO
+├── Intake and Triage Specialist
+├── Store Verification Specialist
+└── Response Drafting Specialist
+```
+
+The CEO should own backlog priorities, staffing proposals, exception escalation, and daily summaries. Intake should classify all inbound messages and route them. Store Verification should transform submissions into evidence-backed listing recommendations. Response Drafting should prepare drafts for customer replies, submitter acknowledgments, listing-claim requests, and exception packets. External sends and listing publications should remain gated for board review. This structure matches Paperclip’s CEO-first model, its support queue model, and its plan/verification model while avoiding early organizational sprawl. citeturn12view0turn22view0turn16view0
+
+For **QuantumShield Labs**, I would not begin with one giant “all functions” company. The public evidence supports a portfolio approach: one deployment, multiple isolated companies, each with a reusable template and its own risk profile. Paperclip explicitly supports dozens of companies with separate data isolation, and the public catalog already models shared source lineages as separate companies when the mission differs. QSL should therefore behave as the portfolio-level owner and standards authority, while individual companies execute bounded missions. citeturn13view1turn25view2turn25view3turn25view4
+
+For **Directory Factory**, the most defensible boundary is likely a separate company from TheBinMap. The reason is not technical convenience but operating model. Directory Factory would likely have different source acquisition routines, different verification logic, different publication sinks, different approval gates, and different commercial outputs. The public guidance around company packages, multi-company isolation, and domain-specific templates supports that separation. citeturn9view0turn6view3turn7view2
+
+For **future client deployments**, the strongest pattern is to deploy from a constrained, versioned blueprint rather than starting from scratch each time. The companies-tool and Company Wizard both point in this direction: portable company packages, presets, modules, agent definitions, and importable configuration. That means QSL’s product advantage is likely not “better prompts,” but **better governed organizational templates**. citeturn9view0turn8view4turn5view3
+
+## Canonical AI organization blueprint
+
+The evidence suggests that a strong canonical blueprint for QuantumShield Labs should be **small at first, modular in structure, and strict on gates**. It should treat companies as portable organizational packages and the board as the standing human control layer. citeturn9view0turn15view0turn23view0
+
+A practical canonical structure would look like this:
+
+```yaml
+company:
+  boundary: one durable value stream
+  board:
+    authorities:
+      - approve_hires
+      - approve_strategy
+      - approve_budget_overrides
+      - approve_external_actions
+      - pause_resume_terminate_agents
+
+agents:
+  - role: CEO
+    responsibilities:
+      - define and revise plans
+      - decompose goals into issue trees
+      - propose hires
+      - escalate exceptions
+      - publish board summaries
+
+  - role: Operations Specialist
+    responsibilities:
+      - run routines
+      - execute versioned procedures
+      - surface exceptions with recommendations
+
+  - role: Verification Specialist
+    responsibilities:
+      - verify outputs against criteria
+      - attach evidence
+      - route to review gates
+
+  - role: Drafting Specialist
+    responsibilities:
+      - prepare human-reviewable external artifacts
+      - never self-authorize sensitive sends or publishes
+
+governance:
+  default_gates:
+    - external_email
+    - publication
+    - infra_change
+    - budget_top_up
+    - staffing_change
+    - strategy_revision
+
+work_model:
+  - goals_decompose_to_subgoals
+  - plans_require_approval_before_fanout
+  - every_task_has_one_owner
+  - done_requires_verification
+  - routines_handle_repeatable_work
+  - humans_review_exceptions_not_routine
+```
+
+That blueprint is strongly aligned with official Paperclip product primitives: one-owner task threads, plan approvals, issue trees, budgets, escalation chains, review gates, routines, and company portability. citeturn16view3turn15view0turn22view1turn9view0
+
+The most important adaptation for QSL specifically is philosophical: optimize the organization not for “maximum agent activity,” but for **minimum necessary human attention with maximum preserved confidence**. Ryan Carson’s public workflow shows constant connection, but also deliberate triage and summary mechanisms. Paperclip’s own support and operations patterns are built around exceptions and escalations. The blueprint should therefore produce daily board packets, approval requests with context, cost summaries, and exception inboxes—not endless conversational noise. citeturn28view1turn27view3turn22view0turn22view1
+
+## Anti-patterns and open questions
+
+The clearest anti-pattern is **treating Paperclip like a prompt folder with a dashboard**. Official Paperclip materials repeatedly push the opposite mental model: roles, goals, budgets, approvals, reporting lines, tickets, and audit trails. If you ignore those primitives and just use agents as loosely coordinated chatbots, you lose most of the value Paperclip is designed to provide. citeturn23view0turn4view0turn16view3
+
+A second anti-pattern is **starting too broad**. The company catalog includes very large templates, including a 167-agent agency, but the most operationally legible public examples are small, specialized teams and separate companies for separate missions. For a new deployment, large breadth creates more routing, more approval load, more idle complexity, and more cognitive overhead before value loops are proven. citeturn8view0turn25view2turn25view3turn25view4
+
+A third anti-pattern is **letting the CEO do specialist work for too long**. The Wizard explicitly shows responsibilities migrating from CEO to specialists as roles are added. That implies that leaving everything on the CEO indefinitely may be useful at prototype scale, but it is not the model Paperclip optimizes for once a function repeats. citeturn8view3turn8view5
+
+A fourth anti-pattern is **removing governance to gain speed**. Paperclip’s public materials place strong emphasis on human gates, versioned plan approvals, auditable runs, and budget caps. Ryan Carson’s public comments on keeping production write keys gated through 1Password reinforce that discipline. Fast systems without gated authority may look productive until they create irreversible external or production mistakes. citeturn15view0turn15view1turn28view0
+
+A fifth anti-pattern is **measuring output only by PR count or task count**. Ryan Carson’s public numbers are impressive, but even his own public operating philosophy centers on decision density, model routing, and automation loops, not just activity volume. For your use case, the more relevant metrics are submissions verified, listings published, inbox response latency, outbound draft accuracy, exception rate, and cost per resolved item. This is partly inference, but it is the metric logic most consistent with Paperclip’s goal-centered task system and Ryan’s summary-driven management style. citeturn27view0turn28view2turn16view2
+
+The largest open question is still the **executive attention layer**. Public Paperclip materials clearly support governance, approvals, and mobile access, but the evidence for a mature phone-first “board packet” experience remains limited. That gap may become one of the highest-leverage opportunities for QSL: not replacing Paperclip, but adding a thin executive layer that packages priorities, exceptions, approvals, costs, and health into a calm mobile workflow aligned with the principle that the organization should protect human attention rather than consume it. citeturn12view0turn6view7turn28view1turn22view1
