@@ -1,0 +1,14 @@
+00:00:00 - 00:00:57
+This is the one person company, the code factory, right? When you when when you realize that that you're not trying to replace humans or say human work is is not valuable. What you're what you're realizing is that most of what you do every day is a loop. And so, as a startup founder, like clearly it's better for myself and my investors if I'm able to do the work of 10 people on the pay of one. And so, what does that mean? Well, every morning if I had a CTO, what would they be doing? Right?
+
+00:00:28 - 00:01:26
+They would be reading a DataDog report or a Sentry report. And any any uh issues that were filed in the night, they would be triggering, you know, an uh their team to go fix that. Right? So, it turns out you can automate that. So, every morning I have a Devin automation that reads Sentry reports. And Sentry is just a uh a monitoring tool. And then if it finds things that it deems are problematic, then it will start another Devin and fix it. And then what I'm doing is checking back in. And then
+
+00:00:57 - 00:02:01
+there's many of these things. Like I showed an automation where every morning, you know, Devin signs up for my app, uses it, and onboards because that identifies potential bugs. So, I I'm starting to automate the work of the engineering maintenance. And then you do the same for marketing, right? So, uh you know, uh every morning I have a report that runs on Google Ads, uh Meta, and X and our paid spend, you know, our cost per click, you know, our lead generation, our uh click-through rate,
+
+00:01:29 - 00:02:23
+you know. And now I have to read all that stuff, but it's stuff I would have been reading from a head of marketing. What you're starting to realize is you can automate a lot of these things, but what you can't automate is what should you build? And the features that matter. But you can speed those up drastically, right? So, what I'm doing in Cloud Design is the iteration process that I would have gone through with a designer, which would take weeks. Like, okay, let's do mockups of this flow. No, wait, we
+
+00:01:58 - 00:02:32
+forgot about that user state. Okay, add that user state. Okay, what about Well, what about this edge case? And I've mocked up this massive feature in 2 days in cloud design is because the iterate iteration loop is so fast. And then you hand that off to your, you know, AI engineer to build.
