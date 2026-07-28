@@ -1,0 +1,323 @@
+00:00:00 - 00:00:53
+I think really the difference is leaning forward, right? So instead of leaning back and just saying sure or whatever, it's leaning forward. It's getting to the point where, you know, everybody that I know that's really smart doesn't write code by hand. For me, it happens at 11:30 p.m. every day. And then after that, it runs another essentially like a Ralph loop and it basically looks at key metrics of my app and then it picks uh the largest problem. So I use mostly skills now and not MCPS. I think we're
+
+00:00:27 - 00:01:21
+moving to a reality where there's [snorts] going to be a lot of solo founders. So, I've built three startups. The last startup I built had over 100 people, but it's just me. >> There's still no shortcuts. Like, just because you have agents now doesn't mean there's magic uh shortcut to making millions of dollars. You still have to do the work, right? It's just that the work is now higher level. >> Hey everyone, welcome to the founders foyer with me Ashwara. This foyer is
+
+00:00:54 - 00:01:54
+full of conversations. The space where creators, founders, and builders look for all the support and concepts to grow their ideas into products. AI coding largely means pasting prompts into random chat boxes for most people. But a few of them are quietly rebuilding and prepping themselves for a futuristic software building. I would say Ryan Carson has been living in this future that most AI builders are just now waking up to. After spending a decade helping over a million people learn to code with she house and also serving
+
+00:01:24 - 00:02:23
+formerly as a builder in residence at AMP. He's simply obsessing over one simple question. What happens when a coding agent just doesn't autocomplete your ideas but actually ships production code with you across your real repo night after night? In this episode, we'll dig into how his structured thinking and ship code while you sleep. And I think it's really while you sleep. loop actually works in practice. Why it thinks unstructured web coding is holding most people back and how's new
+
+00:01:53 - 00:02:54
+reporties aka automated workflows and crown jobs can actually reshape what it means to be a oneperson company. Ryan, I'm so excited that you're here. Thank you so much for joining. >> Thank you. Excited to have the conversation. So looking forward to it. >> Absolutely. Um Brian, you've moved from um teaching humans to code, which you did formally with your company with Treehouse, to now teaching AI to code with humans. So, how does it really change your perspective around what it
+
+00:02:24 - 00:03:35
+means to even code at, you know, today's perspective? >> It's wild to be alive right now, you know. Um, I crossed, you know, the generations from, you know, being pre- internet to internet to, you know, pre-Mobile to mobile, uh, and now to, you know, AI. And it's just, I can't believe it all happened in my lifetime. Um, >> and it really is astonishing. I think, you know, all of us who are using Opus 45 now to code, um, are just blown away at how good it is. Um, so it's pretty
+
+00:02:59 - 00:04:05
+it's amazing time to be live. I often can't believe it's real. Um, I think I think Ilia um said in his uh interview with Door Cash, you know, like can you believe this is all real? Like can you believe it actually works? And I think all of us are astonished like predicting the next token turns out to create intelligence. So here we are. >> I know. Here we totally are. And you're right. I mean um this has been such a uh wave across decades right I think every decade we had this aha moment and then
+
+00:03:33 - 00:04:24
+it was first with hardware and then it was oh like SAS and software and then there was mobile and then now it's just I would say the decade has come shorter with just a couple of months couple of years and then a couple of weeks to days right now so it's it's insane that with every builder I keep telling them that what do you mean even product launched it's just something that's going out every second so it just feels Feels like it's a wild time. >> Someone who is just learning to code
+
+00:03:59 - 00:04:49
+today. Let's let's take these high schoolers. Let's take folks who are just entering the whole job scene in the space. Are you seeing something different from how it used to be? Of course, we all know that there's AI agents that's helping us code, but beyond that, has something been on your mind, especially because you've been on the forefront and you've seen this change across. So, is there like a shift in perspective you see, especially for the nervous folks starting?
+
+00:04:23 - 00:05:31
+>> Yes. Um, I think the most important thing right now is to be agentic yourself as a human. And what I mean by that is to have agency. Um, to be the type of person that says, "I don't know how to do that." Uh, but I can figure it out. And so now, if you have that mentality, because you have an agent to support you, you can really build almost anything. Um, so I would encourage people that are listening to the show, if if you don't code right now, all I would do um is pick a tool. Uh, and
+
+00:04:58 - 00:05:54
+there's a number of them. So I I was at AMP for a while. I love AMP. It's great. Um, I'm not being paid to say this, but we offer a free plan. So just go to ampcode.com and sign up for the free plan and then you get 10 bucks a day and free credit. So >> just do that, right? Um, and and start talking, you know, to an agent. You could obviously start with chat GBT. You could start with cloud code. You sort of they're all kind of the same in the sense that there's a smart agent out
+
+00:05:26 - 00:06:31
+there that wants to help you. So get the tool and use it. So that's like thing one. Um and we've been trained uh for a long time to feel like we need to ask the right question um or we'll look dumb or or maybe won't get the right answer. But now that we have agents, you can you can just start. So So you know, people think, well, I don't know what app to build or I don't know how to build an app or I don't even know what that means. Well, just say that to the agent, >> right? And then you'll end up um at a at
+
+00:05:59 - 00:06:55
+a point where you are building stuff. >> There's no such thing such as a dumb question with agent. It's just, you know, >> no, they have infinite patience and they're friendly and kind [laughter] unlike humans. So >> So true. I would I would start there and just train yourself to to be honest with the agent about if you don't get it right. If it starts saying something that feels too advanced or confusing, just say that. Um and then you end up being able to learn almost anything.
+
+00:06:26 - 00:07:26
+>> You know, a practical example of this is that, you know, I start off off with a computer science degree. I was coding by hand and then I you know started companies and started hiring engineers and then I got abstracted away from the code and I wasn't really a developer. I was a CEO founder. Um since then I've obviously gone back in and learned how to code again as an engineer and now I feel like I'm a pretty comfortable accomplished engineer now. Like I understand what's happening
+
+00:06:56 - 00:07:56
+because I've asked the agent so many times like how does that work? like I don't understand what that means and now I understand what it means. So >> yeah. No, totally with you. super practical tips and I love the way that you've phrased it as agentic because I think the minute something feels like an agent and it has AI in it. People just try to complex the whole u you know situation the whole scenario but then the fact is that most often it's just our liability to start and it's just not
+
+00:07:26 - 00:08:25
+about AI in itself but just our own hesitations that's just leaving us from you know getting started the conversation. So >> yeah absolutely with you on that. >> Amen. As we talk Ryan about um starting these conversations with u let's say chachd your codeex or um AMP and whatever agent there is available most people claim that they do wipe coding right which is you know just chatting with AI without some sort of a structure they just um go about asking things which I think is very good because as we
+
+00:07:55 - 00:08:53
+just spoke it helps clarify a few things >> but um is there something like a good session and a bad session with AI agents especially you know what does a bad session look like and can you walk us through that and also what does a good structure look like? >> Um so I think there's a big difference now between vibe coding and agentic engineering. Um so I I would say they're very different things. Um and so if you just want to have fun and just want to build and you don't care um vibe coding
+
+00:08:24 - 00:09:19
+is great right so if you think about like I just want to make a game I don't care you know how it's coded or how many people are going to use it. I just want to have some fun. Like just go with it, right? And that's vibe coding. But if you're building real stuff, >> you're you're really doing agentic engineering. Um and uh >> I I think there's a big difference in that. So that's thing. So what is the difference between the two? Um I think really the difference is leaning
+
+00:08:52 - 00:09:46
+forward, right? So instead of leaning back and just saying sure whatever it's leaning forward and and as soon as the agent does something and you don't understand why it's doing it or what is happening you start asking questions right >> so you might say well why are you doing that or how does that work or you know what happens if and then what happens is you start going into agentic uh engineering where you're really collaborating with the agent versus just letting it you know do whatever it wants
+
+00:09:20 - 00:10:42
+>> right >> the the thing to remember is as brilliant as Opus 45 is and the agentic harnesses like AMP or Cloud Code are >> um models don't have what we would call uh sort of like common sense. >> Um they're they're not able like humans are to have this sort of medium to longterm context around the project or what you're trying to do. And so they often make what looks like dumb mistakes. Um, >> so a good example of that is, you know, uh, Opus 45 doesn't spend a lot of time
+
+00:10:00 - 00:10:58
+looking through your codebase to make sure it understands >> all the code before it starts editing. It will usually just start writing code as soon as it thinks it understands. Um, and that can cause all sorts of problems, right? So >> y >> what you should do is like learn slowly talk to the agent a lot get more and more comfortable with your code base and then you can start asking good questions and saying well why did you do that and then often the agent will say oh yeah good point I hadn't thought of that um
+
+00:10:29 - 00:11:24
+so that's the big difference between vibe coding and agentic engineering and and everybody should be moving towards agentic engineering like that's where the jobs are that's where the future is um you know I think vibe coding is just kind of a fun thing to do in your free time. >> Yeah. >> So, >> yeah. No, it also sounds more like the same person can actually oscillate between the two and then choose to be the wife coder when the necessity is and you know doing something for fun like
+
+00:10:56 - 00:11:50
+you said versus I think the alternate sounded more like being in command basically like trying to just be out there and then trying to decide. Um uh which you made a very interesting point about the common sense part of it because I've heard a lot of them say hey these models are either like genuinely too smart or too dumb. It's just like behaving like probably like a preschooler or it's just behaving like a PhD student and then there's like no in between. So um yeah definitely I think
+
+00:11:24 - 00:12:15
+personally from using some of these models across and also looking at the way that each of them performs for certain specific actions like certain like you know opus is really good for design versus a Gemini that's really good for something else and there's there's also like demarcations between these models. So from what you say it's also looking like you need to be constantly talking to these models and and sharing what your input is for it to give you like a very contextual output.
+
+00:11:49 - 00:12:42
+So that's what a good structure would look like there. >> Yes. Yeah. Engage your brain. Um you know don't outsource with your thinking. Um that's the primary difference between uh agentic engineering and vibe coding. I think the other thing is um people should really look into concepts like compound engineering which Kieran Clarkson from every uh introduced. Um it's it's pretty simple the idea and [clears throat] it's actually a skill that you can install uh for your agent
+
+00:12:15 - 00:13:28
+or it's a plugin if you use cloud code and it's pretty simple like you have this idea of at the end of a session you basically say you know compound the the learning and what that does is is it caused the agent to go back through the thread >> and look for things >> where it ran into gotchas or it made mistakes and then it updates um either agents.mmd if you're on you know amp or codeex or um or anything except for cloud code or claw.md if you're using cloud code >> and then the then you start to have less
+
+00:12:51 - 00:13:55
+of the frustrating um common sense pitfalls >> where you're like oh my gosh why didn't you know that well because you haven't written it down in your agents.mmd file that's why >> um so I think once you use compound engineering you start to have less >> of those common sense pitfalls and then you go on top of that which is compound product right which is something I'm toying with which is this idea that every night you run two cron jobs um >> the first cron job is is a compound
+
+00:13:23 - 00:14:31
+learning um uh loop where it's a bash script and basically it fires up your agent and it says okay look at all the threads today >> and use your compound engineering skill and look for things that we need to put in agents.mmd so it does that for me it happens at 11:30 p.m. every day. >> Um, and then after that it runs another essentially like a Ralph loop. Um, and it basically looks at key metrics of the of my app and then it picks uh the largest problem that we have with the app and then it solves that problem and
+
+00:13:58 - 00:15:01
+then it uh submits a PR and then I wake up to a PR in the morning. Um so it's like this this idea of compound learning and then compound product like that's how you start to really you know turn yourself into a extremely productive person >> right so compound learning is more to do with prepping your agents and the models themselves I really like the the phrasing to it in some sense um there there's like this hack that I personally use as well on all of my projects which is there are certain times that there's
+
+00:14:29 - 00:15:23
+always like an instructional MD file or um you know like an agentic file that it refers to. Certain times when I'm just riffing with the models and then trying to make it understand really why I'm in command for you know executing certain things. I would ask questions in between the conversations for which I'll ask the model to keep summarizing what it understood from my conversation. I'll basically like copy all of that, put it into a txt file and I would say hey like whatever we've spoken so far all the
+
+00:14:57 - 00:15:43
+steps that you've given me in terms of execution is in like random order in this go read that through and then like basically tell me if you're missing something or you know like if there's something that you would add to it. So, and honestly that's been like the biggest unlock for me cuz it's always like come back to say oh you know what this is like in perfect order and then I say there's there's this joy in like saying let's go implement this because now I kind of know oh my god like
+
+00:15:19 - 00:16:10
+everything is just so on point. So, I think it sounds so much like a >> compound engineering as much as, you know, um something that I didn't give it a phrase for, but um sweet. >> Uh I would love for you to dig a little bit um Yeah, thank you. I would love for you to dig a little bit deeper into the compound product concept because I think there was one thing I really wanted you to show these people as well in terms of the listeners. I would love for them to see how you're running this whole um
+
+00:15:45 - 00:16:38
+system of you know setting up an agent that goes and fetches a certain set of reports for you and in the morning you're constantly like being updated. So uh do you mind walking us through how you've set up this whole thing? >> Yeah. So the the first thing to do is not to make it more complex than it needs to be. Right. So I think take a step back and forget about agents or AI and just think about well how would I improve this thing I'm working on right? you know, whether [clears throat] it's a
+
+00:16:11 - 00:17:08
+business or an app, um, or whatever, you know, you think, well, what would I do every day if I could improve it? Um, and most of the time, you know, the first thing you do in a business is you would have a VP of marketing or a VP of sales, um, or a VP of engineering, and you have a meeting with them in the morning, and they would say, "Hey, Ryan, you know, I noticed that our free trials, uh, signups are down. You know, it looks like we're getting less traffic from this source. you know, I'm gonna dig
+
+00:16:40 - 00:17:35
+into it and I'll I'll come back to you and, you know, suggest something and then they would do it and they would come back and you would see the results and you would just iterate, right? And >> yeah, >> so identify what you would do to improve whatever it is you're working on. And then you think about actually, well, how could I have an agent be a part of that loop? Um, and so what I do for Untangle, which is the startup that I'm building, is I have key, you know, statistics in
+
+00:17:08 - 00:18:22
+the database, things like free trial signups, you know, landing page visits, uh, etc., etc. Um, and so I thought, oh, what I'm going to do is I'm going to output, uh, the data, um, to a markdown file every night. Um, and then I'm going to have an agent look at that markdown and then uh make a call to Opus 45 and to and to decide what would be the one thing that I would do if I was a VP of marketing, you know, and I saw this data >> to improve signups, right? And then it comes back with a suggestion
+
+00:17:45 - 00:18:49
+>> and then I would say, well, now I want the AI to implement that suggestion. Why wait until I wake up, right? like it might as well just try it and then I wake up to a pull request instead of having to decide um you know whether or not it should try it. >> Excuse me. So I think >> that's the loop, right? Um and it sounds complex like agents and crown jobs and loops and compounding but but the truth is it's just >> take data look at the data decide what you could do to improve the data
+
+00:18:15 - 00:19:27
+>> do that and then try it. So [laughter] um now now technically what's happening is um is that we are executing AMP or cloud code on the command line in a bash script like what does that mean? Um, again, you should just ask an agent because it will tell you, but but the idea is >> a bash script can execute uh commands on the command line, right? And so you can run an agent like cloud code or AMP by saying AMP dash X and then you put the prompt in quotes and what that does is it fires up AMP um and it runs, you
+
+00:18:53 - 00:19:49
+know, in the background and then when it's done it stops. So all you're really doing is is creating a bash script that starts the agent with a prompt. Um >> and then uh and then it does that every day at a certain time. So the question is like how do you get the right data into the prompt, right? So that's where you pipe in a markdown file and say, you know, here's today's marketing stats, >> you know, and your job is to look at those, figure out what's right or wrong,
+
+00:19:20 - 00:20:14
+make a decision, and then and then it fires up another um uh bash command to start AMP again and say, "Okay, your job is to fix this problem, >> you know, go do it." And then submit a PR at the end. >> Um so it's it's just two calls to AMP. That's all that's really happening here. Um, and it sounds complex and hard, but it's it's not. >> Um, [clears throat] that's all that's really happening. >> Yeah. And I think you also put it in the
+
+00:19:48 - 00:20:39
+right way like when you have the right data and when you know what to do with the data, then I guess your steps are also simplified. And to what it's, you know, as a fairness, I think most operators and founders today have this data. It's just the fact that we don't know how to operate with the data or we actually don't know what to do with the data. I think that's the problem because at the end of the day everybody understands that you know go to any founder or go to anybody who's building
+
+00:20:13 - 00:21:04
+an app and ask them hey like how many signups do you have and then there's always like a DB there's always like 10 things that they can pull off and show you there's there's clarity there's mixel there's so many you know products that they technically set up as soon as um you know an app or a certain product is into picture it's just that there's always this confusion about how do I make one talk to the other and I that's why the whole Yeah. >> What do you do with the data?
+
+00:20:39 - 00:21:32
+>> What do you do with the data? Like it >> exactly >> it it turns out like probably [clears throat] the data is already just in your Postgres database like >> just start very simply um you know instead of piping the data out you know to a mix panel >> just keep the data in your database then pull it out give it to the agent and have the agent decide what to do with it. We're in this kind of world now where it's actually very powerful just to have the data yourself and then you
+
+00:21:05 - 00:22:06
+know output the data to a markdown file or or you could even you know install a Postgres MCP and have the agent you know query the database. Um there's obviously some security risk with that, but um we're in a whole new world where like you said that you don't need to have analysis paralysis anymore because you can have the agent take the first cut at you know ah there's all this data like what what are two things we should think about right? >> Yep. >> Absolutely. And like you rightly pointed
+
+00:21:36 - 00:22:28
+out as well you ask the agent what to do. I mean at the end of the day if someone's just listening to this part of the episode or someone's just seeing your tweet all it takes is just put that tweet to the agent and then ask it hey I want to do this with my data and I basically have this data in postgress or superb or whatever it is and tell me the exact steps that I need to do to set it up and I'm sure the agent is going to tell the exact steps in terms of step one step two step three so it's almost
+
+00:22:01 - 00:22:52
+like a I think the the whole you I I really resonated with you when you said people get scared with AI it's just that it's too huge, it's too big, it's it's just too hard to sort of like put into that agentic mindset. But I think it just comes down to being willing to ask agent and then like try to say, you know what, I really don't know how to do this. Can you just walk me through this? >> Yeah. Or can you do it? I mean, so there [laughter] there's so many times where,
+
+00:22:27 - 00:23:13
+you know, AMP will say something like, "Well, here's how you do it." And I'll go, "You do it." [laughter] And it's like, "Okay, >> you do it." Exactly. you know, I mean, and I think it's basically a learned behavior. What people need to realize is as soon as they say, "I don't know," then ask the agent, right? So, for instance, like say that they're listening to this and they think, "Oh, cool. So, I need data to give to my
+
+00:22:50 - 00:23:47
+agent um every day." >> Well, I don't know what data to give. Well, great. Ask the agent that, >> you know, say, "Hey, agent, you know, you know, given what you know about our app, what are the key stats? like what are the five stats that really really matter? Okay, are those in our database? Are we collecting those? Okay, we're not. Well, go do it, right? Okay, you did it. Now, now I want you to build a script that pulls out that data every day and puts it in a markdown file. So,
+
+00:23:18 - 00:24:21
+it's it's an amazing time to be alive because anytime you used to say, I don't know, now you just say how do I and then >> how will you today? >> How do you do [laughter] it? Do it. Okay. Yeah. No, totally. As I always say, there's so much joy in just trying to say go implement this or, you know, go do this for me. Especially after it has it is magic. Every every waking day, I I just derive so much joy in putting that line and then sitting back and watching it execute stuff. [laughter]
+
+00:23:50 - 00:24:54
+So, >> I know it used to be so much work. Oh my gosh. Like I think that's why everybody I know that remembers the old way, you know, that built products by, you know, reading a a I have like an O'Reilly book behind me because like >> yes, >> it used to be hard like you used to have to get the book, >> open it up and look for how to do this >> uh and then copy and paste the code and then try it. It didn't work and then you go to Stack Overflow and >> kind of get an answer. someone would
+
+00:24:21 - 00:25:22
+would make you feel bad for asking you know that's all gone like and now there's this joy in building again because all the crap has been taken out and all the fun is back in right so >> yeah no I I am totally with you on this and as someone who's experiencing it I just wish so many people who listening to this also get started so that they can partake in that joy and actually experience this for themselves so so cool um in fact I have like a follow follow up question to that because we're
+
+00:24:52 - 00:25:46
+talking about data and we're talking about how these agents technically just two two types of agents two types of calls working on the data and giving you all the output that you want. People also talk about MCPs right because there's there's also like MCPS being the right way to connect data and then there was all this fad around oh like you can connect uh different MCPS to your different agents and then watch it combine data. So I just want to um I think differentiate between um at least
+
+00:25:18 - 00:26:20
+from your working experiences where MCPS can actually be helpful especially from the data context that you're talking about as opposed to let's say these kind of agents directly working on your markdown files or your data wherever it is like is there any sort of a difference in perspective or output that you see? >> Yes. So I I I use mostly skills now and not MCPS. So a good example um well let me back up. So in order to use agents well they need to have a good feedback loop and what that means is the agent
+
+00:25:49 - 00:26:53
+needs to be able to understand if what it is doing is correct or not. >> So you have to always think about well how can I empower the agent to do that instead of me copying and pasting. As soon as you're copying and pasting you're doing it wrong right? So, so as soon as you do that, you think, okay, I need to find a skill or find an MCP that allows the agent to, you know, solve its own problem. So, an example is I used to have the Playright MCP installed. Uh, and Playright for anybody listening that
+
+00:26:21 - 00:27:16
+doesn't know is basically uh an amazing framework that allows um it used to write code to control the browser, but now the agent can write code to control the browser. Um, but actually I've taken a step back and there's there's a new uh install and skill called agent browser. So it's agent-browser. It was created by the Verscell team. It's open source. Uh, you know, it's free. It's great. >> Um, so if you're listening to this, just, you know, ask your agent to go
+
+00:26:48 - 00:28:01
+find agent-browser by the Verscell team and install it and it will do it. And what it what it is is basically um it teaches the agent how to fire up Chrome uh on a debug port and then use Playright to control it, right? >> And it's amazing like um and so what I don't use the Playright MCP, I just use the agent-browser skill which is using Playright under the hood. So, >> right >> now, if that doesn't make any sense, all I'm really saying is skills are really uh where it's at right now. Um,
+
+00:27:26 - 00:28:29
+>> right. >> And there's a website called I think it's skills. Is it skills.h? Yeah, skills.sh. >> Okay. >> Um, it's this amazing uh um sort of list of good skills. Um, and you'll probably see the the agent browser at the top of that. >> So, that's primarily what I'm doing. I I have one MCP uh for Sentry which I use occasionally. So Sentry is a tool >> to monitor your logs and look for errors. >> Um and it's pretty great. So what you
+
+00:27:57 - 00:29:00
+can say to to the to your agent is hey do we have any sentry errors and it goes and use the MCP to look >> and then uh it can sort of get a b bunch of info on that. Right. I don't use that as much. Um >> right. >> So okay >> but yeah MCP is a I'm using them less. Um it's mostly about skills right now. So the compound engineering skill, >> the agent browser skill, the Ralph skill. Um these are a couple things that I use uh a lot. >> Nice. So yeah, I think uh it's also safe
+
+00:28:28 - 00:29:26
+to say that as there's more advancement in the way these models perform, there's also going to be like constant upgradation in terms of like which gets better to work with the model. So I guess like four, five months ago or at least safe to say like about six, seven months ago, I think MCPS were the format to get the data from different tools. But I so side with you around the skills because it feels like these um agents are working better with skills is almost like the feeding information that it
+
+00:28:58 - 00:29:52
+needs for um getting to do certain actions. So yeah, so slowly I think the transformation as you rightly pointed out is is coming off from MCPS to the skills and almost let's say there are still some cases where MCPS can barely get you the data maybe like you don't have to do the old school integration or the old school like oh I'm going to a this with this and then you know like get into the loop of getting stuck but I guess that's where MCPS can really be helpful to get you a through the stuff
+
+00:29:24 - 00:30:31
+and then get you the data and I guess um skills can then work on top of that data with And it's interesting though because um so I host everything over sell. I love it. Um I'm not being paid to say anything. >> Yeah. So um I'm not on anyone's payroll. So everything I'm saying is just uh because I I like it and I love Verscell um as you do. >> And so they have an amazing CLI uh like the the the CLI tool. The Verscell tool is extremely powerful and they just shipped an update and it knows about
+
+00:29:58 - 00:31:12
+every single API on Verscell. >> And so if you add in a skill which which helps agent understand how to use the CLI tool, you basically get all the benefits of MCP without all the extra context >> bloat. Interesting. Um, and so because agents are really good at running bash commands like and they're really good at using CLI tools and so I try to default to using a CLI tool with a skill instead of an MCP >> because it just seems faster. Um, >> yeah. >> And uh it's just amazing. Yeah. Uh, so I
+
+00:30:35 - 00:31:31
+would say if you're on Versell, up update the latest Versell CLI tool. Uh, make sure you have a a skill installed and you'll love it. It's great. >> Yeah, I guess at the end of this podcast, everybody's going to go look up for agent to say, "Hey, how do I create my skill?" If they've not already, but then really wish for more folks to sort of do that. And I I um I think I'm recently a convert u and or rather I would say I shift between um the ID chart boxes and terminal. So it's almost
+
+00:31:03 - 00:32:07
+like I'm in the middle ground right now. Not completely a convert to CLA yet. But I I do see a lot of um benefits especially working with the instructional files whether it's like MD files or whether it's some of these skills stored in the MD files more to be easier through the terminal than through some of these um you know agentic chatbot interfaces. So yeah I do I do see the point there. >> Um cool. So I just want to close the loop on compound product thought of it. So technically compound product is what
+
+00:31:35 - 00:32:30
+we spoke over the last couple of minutes in terms of understanding what's really something you want to go improve on in your product and then trying to compound engineer through these agents and um do one task well one day at a time when you sleep. That is >> why you sleep. That's right. [laughter] >> Yeah. It's pretty amazing. and and then in the end you'll probably end up running, you know, three of these loops at night. I think that's where we're kind of going is people managing, you
+
+00:32:02 - 00:33:02
+know, these fleets of agents and figuring out how to parallelize as par parallelize as much as possible. Um >> uh we'll kind of see how it goes. >> Absolutely. Can't wait for um I I I don't want to say the future because that's already happening. So I just can't wait for people to get started with that u setup. Um so as we're talking about the AI coding agents I have a question for you around um evaluating the output of an AI agent right because I've often heard from
+
+00:32:32 - 00:33:33
+people u and we ourselves spoke about the context and sometimes um the agent giving you like a bad answer or not being able to get through the memory of the last few chats. what's I I don't know whether to call it as a framework or what's the certain rubric that you go by personally from your experiences to evaluate where coding agents are today and um where do you see or how do you see teams using it better like when do you judge that something is working well something is is not working well and how
+
+00:33:03 - 00:34:04
+do you get these agents apart from skills how is there anything else that you can get these agents to give you like the kind of right output >> yeah I mean I would say, you know, the the leading agents in my mind are AMP and Clog Code. Um, and I think a lot of people are using Codex. I I don't use codecs. Um, so I can't speak to it, >> but >> Okay. I'm a Codex fan, but yeah. >> Oh, cool. I I keep wanting to try it because I hear GPT5.2 is amazing and um, you know, so I kind of
+
+00:33:33 - 00:34:22
+>> it's really great with your databases and something like anything that you have from a complex uh, data perspective, it's really good. Yeah. U apart from that. Yeah. >> Yeah, I'm hearing that. So, it's like I'm I'm tempted to try it. Um >> but I think most of most of these harnesses are pretty good, right? I think if you're going to choose cloud code or you're already using cloud code, great. If you're going to use AMP or you're using AMP, great. Like these are
+
+00:33:58 - 00:35:03
+good tools. Um >> uh I don't think you need to be worried that you know either any of them are going to be bad. Um I think the most important part is pick one and get good with it right so if you if you can imagine you know this is like you are a runner right and you're picking your shoes right you know pick your shoes and stick with your shoes and and and get to know your shoes and use them more right and then it's a it's a very important tool um so I think the more time you
+
+00:34:30 - 00:35:33
+spend with your agent and really get good at it um the better. Um, so I use AMP. I love AMP. Like I I'm very good at using AMP. It's got a lot of functionality that I use heavily. I I only use it uh on the as a TUI or on the CLI um because it's a power tool. >> And so I I think folks, you know, pick just pick one. I think there's this like FOMO going on where it's like, oh, maybe I should be using Cloud Code or maybe I should be using Coax or maybe I should be using AMP. Just pick one and get good
+
+00:35:01 - 00:36:04
+at it. Um, you know, Anthropic's not going away, AMP's not going away, Open AI is not going away. Like, these things are going to be around. Um, so just pick one and and get good at it. Um, and also it's getting to the point where, you know, everybody that I know that's really smart, um, doesn't write code by hand. Um, and so I think if if you're in there, you know, trying to do tab completion or editing the files, you're doing the wrong thing. like you should be letting the agent write the code. Um,
+
+00:35:33 - 00:36:24
+and then if it's super important code, review it, understand it, know it. >> Um, >> right. >> But, uh, you shouldn't be micromanaging the agent. I think if you're doing that, you're doing it wrong. >> Right. I think there's a subtle difference then, uh, between the whole commanding the agent to do it your way versus also micromanaging. I guess now the micromanaging is no longer about because there was a time when uh you know folks said um asking an agent to do
+
+00:35:59 - 00:36:56
+what you want was sort of the micromanaging but I think we're far past that stage because what looks like micromanaging now is is technically doing those tap complete or you know like sort of taking that engagement with AI agent in a wrong way versus if you really go very specific about the way that you want and give it all the context I guess that's no longer micromanagement that's more like the engineered way to uh get to the output that you want. >> Yes. And I think what what we're finding
+
+00:36:26 - 00:37:20
+is um with good agent harnesses, you know, like a cloud code or like an AMP, you don't need to tag files really anymore. Like so you just have to do this, right? Like okay, what's the right context to give the model? >> It most of the time you don't have to do that unless you want to, you know, shortcut maybe the first step where it's gpping, you know, a bunch. Um, >> but most of the time you don't even need to do that and then it's a it does a very good job of finding the right file
+
+00:36:54 - 00:37:43
+and reading the right lines. Um, so I think that >> is something you don't have to micromanage anymore. >> Very true. Yeah. I I I also have a feeling that some of these um providers like you mentioned like whether it's anthropic or whether it's um OpenAI or AMP for that. I' I've not used AMP yet. It just makes me so curious um to to go get >> I'm giving you FOMO. It's bad. See [laughter] >> you. This is the problem is we're all going maybe your tool maybe your tool maybe I
+
+00:37:19 - 00:38:13
+should and it's like I just use your tool >> you're probably good at >> code right so >> yes yes yes totally I use a combination of augment plus codeex so I'm on VS code just use both augment and vs code uh I'm sorry augment and codex as the extensions but but you're right like see in some sense I also feel like this is [clears throat] so much um contextual at the same time a contrary um advice because there's also like way too many is happening when you open X when you
+
+00:37:46 - 00:38:34
+open LinkedIn there's just ton of course there's um ton of new things that you get to know every day so as someone who is in the forefront of AI and wants to learn everything I think it's just not enough it just feels like you know I have to know this I have to know this like what's clawbot why did it change its name and there's way [laughter] too many >> why is it molt bot now what's happening >> exactly what's happening >> I know >> should I buy a Mac mini should I not
+
+00:38:10 - 00:39:07
+what's what's all this >> I know it's stressful you just got to take take a step back and and take a deep breath um and and dig into what you're already doing and get better at it, right? And yeah, there's a couple thing things that I think people need to be aware of like if you're not generally aware of this idea of compound engineering or compound compounding like then you do need to get on that, right? But your current tool >> can do it, right? So don't switch tools,
+
+00:38:38 - 00:39:30
+you know, or buy a Mac to do it. It's more like what are you doing right now with your agent and how can you compound that, right? Um like this morning I was thinking I just had the idea this morning for this idea that every day I should run a crown job to do compound engineering on the threads I ran that day. >> So >> I just ran down to AMP really quick and said, "Okay, I have this idea like I'd like you to read all the threads in the last 24 hours. is I'd like you to use
+
+00:39:04 - 00:40:02
+compound engineering to look for what we learned and I want to make sure that you updated all the right agents.mmd files you know and then ship that and it's uh probably like 30 minutes of back and forth with AMP and now that [clears throat] cron job runs on my Mac right like >> very nice >> and I and and I didn't know how to do that no Mac mini I don't I was like this [laughter] close like to buying I was like oh no like >> I swear I swear and I have my my very own close friends have Mac Mini so I was
+
+00:39:33 - 00:40:21
+literally pinging them to say, "Hey, is it is it any better?" I've always been tempted, but now it's temptation to the core. Should I do it? >> Yeah. >> So, yeah, it's crazy. >> I mean, my MacBook just sits here on my desk at night. Like, I I can just use Caffeinate to keep it on. Like, it's not doing anything else. Like, it's basically a Mac Mini. I don't need to buy one. >> Yeah. [laughter] >> Yeah. No, this is um super grounded um
+
+00:39:57 - 00:40:49
+uh piece of information I would say because there's there's always um again I'm going to I'm going to touch this topic back once again to ask you but um I think on the whole um really really uh actionable to focus on what you're already working on especially the tool of your choice and I think it's just a matter of hey if you if you've not gotten started then yes of course you have to decide where do you really want to go towards and then pick and and and uh you know learn about the tool but I
+
+00:40:23 - 00:41:18
+guess for people who are hearing this and who who already have some sort of a process through what they're doing with AI is just doubling down on that and then finding more revenues like you mentioned to um you know keep doing that in a better way. So yeah that that that makes so much sense. >> I mean it's almost like there's still no shortcuts like just because you have agents now >> doesn't mean there's magic you know uh shortcut to making millions of dollars. You still have to do the work right?
+
+00:40:51 - 00:41:46
+>> It's just that the work is now higher level. And what I mean by that is there's no secret trick that someone said on X that you're missing which is keeping you from being a successful agentic engineer. It's just not real. Like >> what you need to do is get your hands on the keyboard, right? Yep. >> And and engage your brain and then you know and start talking to your agent. [laughter] >> That's the most important thing like hands on keyboards you know or if you're
+
+00:41:18 - 00:42:09
+using Whisper Flow you know start talking to your agent, right? >> Yep. Yep. Um, oh, I'm a huge fan of whisper as well. So, glue. Um, and what you just said, you know, basically it's going to be like a nervous system coming down for most of them listening because constantly like, you know, agitated with knowing stuff. But, um, just as a sideline to this, let's say, you know, I am sticking to a tool. I am getting better with what I do, finding these avenues to grow. Um, what would you
+
+00:41:43 - 00:42:49
+still think as the most sest way to keep um in tabs with what's happening? Like for example, like how do I get to know something like a skills.sh? How do I get to know that hey like VCEL has launched this and I would love to try it because I I'm already proficient with CLI. So is there like some sort of a sane approach to be on top and still like sort of choose to be away? >> Um gosh it's what I do is is mostly through X. I think if you follow a couple good accounts, um you know, I
+
+00:42:15 - 00:43:19
+think Kieran Clarkson uh who is uh the the pro uh I guess they call him the project owner or the the manager of Kora at every he's super switched on. I would follow him. Oh yeah. >> You know, I'd follow uh I think it's Versel. I think there's I can't remember if it's Versell engineering or that just find a couple key X accounts I think and then >> pay attention to that. Um there's a couple great podcasts. Um uh Clarvo has a great show as well. >> Um you've got a great show. There's a
+
+00:42:48 - 00:43:50
+couple things like I think if you just pick a couple >> you'll probably get the highlights. Um >> right. But just avoid the trap of thinking that you know you're you're you're just one, you know, trick away from unlocking everything. It's just not true. >> Truly. Yeah. Yeah. So basically like filter out and you know like learn where to tune in and learn where to step back and sort of work in your own. >> Yeah. Absolutely. Makes sense. Yeah. And one question that you know I'd love to
+
+00:43:18 - 00:44:19
+pick your brain on is um where there's there's no der for existing founders whether they're tech nontech. I think there's nothing called as a non tech anymore. It's just that everybody is is in tech space. So I I I shouldn't be calling the non- tech founders technically but um everybody wants to 10x their output and that's what we're talking about. um is there like a one person or um you know just one person being able to set up an entire company or entire apps of sorts and what's your
+
+00:43:48 - 00:44:55
+um I don't know some sort of like um conviction around it I would say because we're seeing like all of these agents being the replacement of teammates in every team so is there like a certain future that you see uh which is one person behind all of the wheels and you are a good example yourself for doing that Yeah, I think we're moving to um a reality where there's going to be a lot of solo founders that start companies and then scale them to you know 5 10 15 people max. Um >> and and you know so I've uh built three
+
+00:44:23 - 00:45:33
+startups that you know the last startup I built had over 100 people um you know raised a bunch of money for it. Um, and I'm essentially building a similar uh app in complexity tackling a, you know, a similar difficult problem, but it's just me. Um, >> and you know, I used to have a CTO and a VP of edge and lots of engineering, lots of engineers and product managers and, you know, DevOps and and marketers and, you know, I'm kind of doing all of it now. not as well as you know as you know
+
+00:44:58 - 00:45:55
+some of those experts that have been doing it for a decade more but well enough right so I think that's where we're going um you know I'm currently raising you know a small seed round but >> I almost don't even need to do that like and there's a lot I think a lot of founders are going to raise a little bit of money and never raise again >> so it's a really exciting time to be a founder like it really is like >> your ability to multiply high your output with very little capital has
+
+00:45:26 - 00:46:22
+never been better. But it also means there's a lot of people building stuff, right? So, >> um, >> but hey, that's just the world we live in. So, um, that's kind of where we're going. >> Yeah. And I think it's no longer about like one person or a solo person because uh throughout this podcast we were talking about how these multiplex of agents can actually be your teammates, can actually be uh the different avenues that you can get information from. So almost feels like as you spin up these
+
+00:45:55 - 00:46:48
+agents and have them, you know, help you through time, it's just going to be like, "Yeah, I'm going to, you know, have people to work with me of sorts." >> Yeah. It you have I mean, managing fleets of agents now is is your job. Um >> Yeah. >> And and it's fun. It's like having employees really. I mean, you give them feedback and >> uh but they are always working and they're always happy to take the feedback. So, [laughter] and >> unlike humans at times,
+
+00:46:21 - 00:47:13
+>> I mean, you know, I love humans, but man, working with agents is pretty great. >> Yeah. Oh gosh. Yeah. Yeah. Totally. Totally. And um I I kind of joke this um to my uh friends every day. I kind of say, you know what, working with AI teammates is actually more fun than humans these days to me. So, just doesn't I know it could, you know, sound, but [laughter] >> it's kind of true. >> So, it is. >> So, I have this t-shirt that says, "Humans are overrated. I prefer Chachi
+
+00:46:46 - 00:47:33
+PD and um I was like recently thinking you know what I want to like strike that and say a couple of things not just chachi I had like more suggestions for that t-shirt so have like multiple versions of the t-shirt be printed with different agents. >> That's fine. I would I would I would buy that t-shirt. So [laughter] >> I'll I'll link that to you. It's like so much fun wearing that up and the entire So I work out of a small um you know office space and then everybody looks at
+
+00:47:10 - 00:48:13
+me when I wear the t-shirt like you know is she crazy? Is she [laughter] like really okay? No. >> Oh gosh. Um, so much so much fun with AI. What a wild time we are all in and so much to, you know, ship. Awesome. Um, Ryan, is there like um Oh yeah, I really don't want to forget this part, right? Uh because I do know that we spoke about the whole system thinking and I really don't want to leave uh you without um you having to walk through your systematic approach of working with these Asians. I know you had like this
+
+00:47:41 - 00:48:36
+three-file system or like three-step system. >> [clears throat] >> would really love for you to like talk a little bit around that and I'd link that um know in the show notes but yeah I would love for people to have some sort of a understanding around it because we spoke a lot around how do you you know set up these agents and how do you start talking to them so I think this is also very contextual to help them do that >> you bet so um I initially came up with this three-part system where you uh plan
+
+00:48:08 - 00:49:19
+and then you take that plan uh which is called often a product requirement doc or a PRD And then you create tasks to complete um uh the implementation of that PRD. And then the third step is to manage the agent, you know, to complete each step. Um but honestly, it's outdated now. Um and I'm basically >> I was um I mean, and that repo has I think over 7,000 stars now. Um it's a good place to start. Like so I would encourage people to start there. like >> you basically have a PRD uh plan um and
+
+00:48:44 - 00:49:44
+the agent helps you write it and then you and then you have a task uh implementation and agent helps you create the task and that's that's fine. >> I think it's a good place to start but but I think now the best practice is using something like compounding engineering >> which is very similar right so you have you have planning >> um you have executing you have compounding >> um uh you know and that's kind of built in now. Um, right. So, I think that's what I would
+
+00:49:14 - 00:50:08
+recommend people do is is >> weak to that. >> Yeah, I would just, you know, ask your agent to go find the compounding engineering blog post and then implement that system. Uh, and it's basically either a skill or a a plugin if you use cloud code. >> Um, >> yeah. Yeah. >> So, that's that's the main thing I'm doing. And then I'm adding on top of that this idea of compounding product. this idea that in, you know, you should be creating a loop um where your agent
+
+00:49:41 - 00:50:44
+is actually shipping stuff while you sleep so that you can wake up and and and move faster. Um >> yeah, >> and I'm experimenting with that. I, you know, I think we I think uh I've probably created with AMP, you know, three or four PRs using compounding product. It's a new idea and I'm testing it. um and kind of have found some things that work and don't work and >> um but that's my current thinking about you know the systems that I use uh to ship code >> right no um uh the reason that I pointed
+
+00:50:12 - 00:51:15
+out the three file system was also the fact that um a lot of that um kind of like gets a little bit tweaked or replaced with the um skills that we spoke about because now it's almost like not just clot code and not just opus or sonnet I think um every other agent is also being able to recognize um a MD file and recognize what a skill training would really look like for it to get context. So the PRS I guess at least would be largely replaced by um the skill and what it should do and what it should not. But I think the tasks part
+
+00:50:43 - 00:51:38
+still remains to be um the whole uh planning out and then like you know execution of this agent like go get this done raise a PR. I think that part still remains to be the whole um you know in in in u uniformity with the tasks part from what you said but crazy um just 3 months or four months I guess and then there's already like so much change. >> Yeah, it does change fast >> and I'm glad you said while you asleep because um it almost makes me feel happy that when I'm awake I can still go
+
+00:51:11 - 00:52:06
+command that agent and it's not that you know it kind of does work when I'm awake. So that's almost like thinking what the hell would I do then? So [laughter] it's almost like you know, double the work. So, um, very, very cool. Uh, Ryan, thank you so much for joining me on the show. It was, um, fun for me as well as so much of personal learning. And, um, it's always exciting, like, you know, I said at the start of the show, it's always exciting to see people's workflows, what um, really does
+
+00:51:38 - 00:52:23
+magic for them. And when folks listen to it, there's almost like a feeling that they get in terms of, oh, like there's someone who's figured it out, and I'm also going to like do the same thing. So, I think your examples are like so spot on and and very much actionable for folks to get started. So, um really appreciate you for being here and and and sharing all of those um notes, links, apps, and I'm going to put all of that in the show notes. But, um yeah, thank you so much once again.
+
+00:52:01 - 00:52:19
+>> It's been a blast. Thanks for having me on and and look forward to uh chatting to you and your guests in the future. Take care. >> Absolutely. Take care. See you.
