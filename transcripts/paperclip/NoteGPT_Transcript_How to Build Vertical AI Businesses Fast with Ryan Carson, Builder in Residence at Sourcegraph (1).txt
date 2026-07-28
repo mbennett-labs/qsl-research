@@ -1,0 +1,296 @@
+00:00:00 - 00:00:56
+when large language models happened thought, wow, this is bigger than a computer, right? This is the beginning of intelligence. We're in a brand new explosion of smaller vertically focused AI [music] focused businesses and now is the time to launch them. You can't compete period if you don't use AI, right? But then how do you compete with everyone else that's using AI? And the answer is you get good at planning. You get good at not outsourcing your thinking. >> Ryan, welcome to the show.
+
+00:00:28 - 00:01:26
+>> Good to be here. Thanks for having me. I'm excited to share some things that are hopefully interesting and valuable. >> It's going to be a lot of fun. So, I'm glad we had a chance to connect. I mean, you're living all things AI every day, but for everybody who doesn't yet know you, who are you and what do you do? >> So, I was born and raised in Colorado. And when I was, I think, in fourth grade, my dad brought home an Apple 2e computer and I was like, "Wow, what is
+
+00:00:56 - 00:01:48
+that?" and started playing with it and like everybody, you know, played some games like Prince of Persia and and Fuzzy. >> Oh, I love that game. Such a good game. >> And then, you know, kind of put the computer aside for a while and then I was walking down the hallway when I was in 11th grade and my math teacher, her name is Miss Bruce, and she tapped me on the shoulder and she said, "Ryan, you should take our programming class." And I was like, "What's programming?" And
+
+00:01:23 - 00:02:20
+she said, "It's where you tell the computer what to do and it does it." And I was like, >> I like that idea. >> I'm in. So I took my very first programming class in high school. It was Turbo Pascal. And then, you know, the bug had bitten me and I realized, wow, you can create, you know, from nothing with code. Um, it's this ultimate creative activity. So fell in love with it and ended up studying computer science at college. And then at the end of college, I thought, you know, I'm
+
+00:01:51 - 00:02:42
+going to have an adventure and just move somewhere totally different. and I watched the movie Nodding Hill, which is an amazing romantic comedy and and I was like, I'm gonna move to England. Um, so hopped on a plane and I'll never forget it cuz I it was at Denver International Airport. My mom dropped me off and she was sobbing and I'm like, "Mom, what's you know, what are you crying about? Like, I'm going to be back. I'm just going to be gone for a year." And she
+
+00:02:17 - 00:03:08
+said, "You're never going to come back cuz you're going to meet a girl." [laughter] And I was like, "No, I won't." like and sure enough, you know, met my amazing wife in England and and we're still married today and I pretty >> but you're not in England. You did come back. >> I did come back but not not to Colorado. I'm in Connecticut now. So, and that's a whole another story. So, you know, kind of grew up computer science programmer, got my first job as a web developer and
+
+00:02:42 - 00:03:32
+then the entrepreneurial bug bit and I thought, you know what, I could build an app, you know, that solves a problem that and try to build a business. So, at the time, I was a web developer and we had clients and we needed to send them large files, you know, Photoshop files or whatever. And back in the day, you couldn't email stuff that was very large. And I thought, you know, I'm going to build a tool that sends large files over email. And so, during nights and weekends, I built it and shipped it
+
+00:03:07 - 00:04:06
+and then launched it and it was successful. Ended up getting acquired, I think, 2 years later. So, that was like my first kind of, wow, okay, I can start a business. it can get acquired like >> which company was was that? >> It was called drop send and ironically or sadly it was called Dropbox and I launched it right before the Dropbox and I was living in Bath England and and didn't raise a bunch of venture capital. I thought you know I'm not going to go to war with Dropbox here. So renamed it
+
+00:03:36 - 00:04:27
+to Drops End but it ended up being a a successful you know small startup and was acquired. So >> wait, you're not the guy who owned the domain. There's a famous like Drew Houston story where he buys the Dropbox domain. That wasn't from you, right? Okay. >> That would be great. >> So, that was kind of my first, you know, app. And then from then on, I really decided, you know what? I want to teach people how to code because if you learn how to code, you unlock wealth and you
+
+00:04:02 - 00:04:55
+unlock opportunity. And and I don't think you should have to go to school and study computer science to do that. It's like if you're if you want to be an electrician, you wouldn't go get a degree as an electrical engineer. like it doesn't make sense, right? And everybody's going to computer science like to program and programming is really a trade skill. And so basically decided, you know, I think it's time to launch a school and teach people how to code. So the the next 15 years of my
+
+00:04:28 - 00:05:26
+life was all about starting companies that were edtech companies and teaching people how to code. So kind of fast forward, you know, a couple years, we end up launching a business called Treehouse, which is an online school. We taught people how to code, charge 25 bucks a month, uh ended up raising about $20 million in venture capital, scaled the team to over 100 full-time employees, and then that business was acquired in 21. And you know, then it was like took a breath cuz I had been running Trios for a decade and and tried
+
+00:04:57 - 00:05:57
+to figure out what was next. Um, and as you remember 21 and 22 is when you know, large language models happened. And so the, you know, obviously paid attention to that and thought, "Wow, this is this is bigger than a computer, right?" >> I think like most people clued in probably in 23, but yeah, 21 was probably GPT3 or something. >> It was all starting to happen. And then I think as soon as you realize, wow, like this is the beginning of intelligence, you know, then that was a
+
+00:05:27 - 00:06:22
+really exciting moment. So after TRS was acquired and and large language models happened and generative pre-trained transformers worked you know I was like wow okay this is going to change everything now what and I think at that point I didn't have an idea to start a company you know I was like okay I could think of some things but I don't have that that passion for a specific problem right you know every entrepreneur you can really only start a business when you have the idea that you truly believe
+
+00:05:54 - 00:06:55
+in so at that time I was like you know you know I don't know about as silicon like how how does AI actually work, right? How is the matrix multiplication actually happen on a GPU? And like how do you train a large language model? And and so I thought I'm just going to join a silicon company that makes silicon, you know, makes GPUs and CPUs and and so I thought I'm just going to try to join Intel and learn. And so applied for a job, got a job. >> Yeah. I was wondering how the Intel
+
+00:06:25 - 00:07:16
+thing happened. So that that that's why >> that's why yeah it was my adult internship is what I call it and I just thought you know I'm going to go be a sponge and learn I'm going to learn what it's like to be in a big enterprise. You know there was over 100,000 employees at Intel at the time and learned so much. It was fascinating. So kind of did the big company thing for a bit. Had a good time. ended up rolling out their global developer relations program and their influencer program and and when I felt
+
+00:06:51 - 00:07:52
+like I'd done what I accomplished, what I had been there to to do, decided to leave and and and then it was like, okay, I did have an idea at that point. So, my two sisters had gotten divorced and and had watched them navigate that and watched them go through, you know, pain and expense and and a lot and I thought, you know, I think divorce needs to be disrupted. And so I started building an AI divorce assistant. And so I was doing that on the side and then I was using AI tools to build it, right?
+
+00:07:21 - 00:08:19
+So probably people watching this, you're using chat GPT or maybe you're you're delving into the worlds of tools like cursor or AMP who who I [snorts] now work with and you're probably trying these things and realizing, wow, I can build so much more now. It's like you have the the infinity gauntlet on your hand and you can create. So, I was doing that. Along came Twitter cuz I'm on Twitter all the time. And someone said, "You should try a tool called AMP." And I had never heard of it. And I tried it
+
+00:07:50 - 00:08:43
+and it's basically an agentic coding tool that helps you code and build. And I and it was good. So then I thought, "Okay, this is really good." And so the CEO and I got talking and he said, "Well, why don't you join AMP as builder and residence? Build your startup, you know, on the side with us. you know, you keep all the IP and and but use AMP and let people know how it works for you and and so now I'm a builder in residence at AMP and building my startup on the side
+
+00:08:16 - 00:09:17
+and and then spending a lot of time on Twitter X. So that's my circuitous story. >> Oh, super interesting. And so AMP is the coding agent coding tool for source graph, right? >> Yeah. So source graph is is an actually an older company. They have a big enterprise business where they do they sell code search tools and then they launched AMP which is an agentic coding tool. They launched that this year and it's just take it's just taken off like a rocket. It's wild. >> Can we talk about that for a second? So
+
+00:08:46 - 00:09:51
+there are a lot of people that they've used chat gpt, they've used claude and we've talked about tools like bolt and lovable and people have seen you type into a text box the thing you want to build and then you press enter and it writes thousands of lines of code and then out comes this result. Developers you know might use that for prototyping but you know the tools that there's the wind surfs and the cursors of the world. So we use for example cursor at fellow but maybe tell me about AMP. So it
+
+00:09:19 - 00:10:19
+sounds like you prefer AMP. So may maybe you can explain what different about AMP and why you prefer it and like maybe we should switch. So I I would love to know. >> Well, it's free. So that's one reason to switch. >> That's a good reason. So anybody listening could go >> and find AMP and start coding for free. >> Yeah. ampcode.comfree. And this just happened. So we just launched this last week and and here's why. So it turns out that actually tokens are expensive. So tokens are what
+
+00:09:49 - 00:10:42
+large language models produce, right? And and if you're listening, you think of them as a word, right? So you know, you might say peanut butter and and the next token would be jelly, right? So large language models, this is what they do. But it turns out that's that's actually expensive. And so everybody thinks it's cheap because it's funded by, you know, companies that are have, you know, billions and billions of dollars in venture capital funding. But the truth is like if you actually pay
+
+00:10:16 - 00:11:19
+for those tokens, they're expensive. And so AMP what we used to do is we built the best tool for coding. I think the best tool for toing coding but it was expensive because what we would do is we would allow the agent to use as many tokens as it really needed. We would use the absolute best models. It's think of it as the premium product, right? So if you wanted the best >> Yeah. You wanted the the PhD coder, not just the PhD, but like the PhD was the top of their class and then worked at,
+
+00:10:48 - 00:11:48
+you know, I don't know, meta for 10 years, >> right? Yeah. You want you want the luxury tool, the the the expensive tool for serious work, right? So that that's what AMP is and was, but everyone said, gosh, it's expensive. I mean, I can play pay cloud code 200 bucks and a month and kind of get everything I need. >> So when you say expensive, what does that mean? Like what is it? I mean, I would, you know, if if you're an engineer and you're using AMP for real work and producing, you know, important
+
+00:11:17 - 00:12:13
+code, you can easily spend $500 a month, you know, $1,000 a month, which all of us running businesses, if you actually think about it, it's nothing. Like, if you think, well, if I hired an engineer, you know, they would cost, you know, $30,000 a month. Um, but it sounds expensive, right? So, our CEO, Quinn, had this idea. He's like, "Let's make it free and let's let's have it paid for by ads." >> Oh, really? >> Yeah. And all of a sudden, that's not going to work, right? And he's like,
+
+00:11:45 - 00:12:41
+"Let's try it." And and then it was kind of a joke at first internally. And then after a while, we're like, "This might work." And so >> essentially the team worked really hard on how do you deliver the same experience but for free? And all we do is we put a little ad for developers above the text box. And it's all for developer tools. Like it's things you actually want and and you probably will want to click on and you will want to see. >> Oh, and you can tell it to them when
+
+00:12:14 - 00:13:08
+they need it. So you're in the middle of writing the O code or something and you know maybe there's an O zero. >> Exactly. And it and it never changes what the what the agent says or suggests, right? So it never mixes in with what code you're writing because obviously that would be bad. But it it will absolutely be customized based off of what your codebase is, what you're trying to do. And your off example is perfect. Or or say you need to send emails. It might say, you know, here's
+
+00:12:40 - 00:13:30
+resend, which does programmatic email, you know, try it for 10% off. So you're about to write this like, you know, emailing thing in your in your product, and rather than writing it and supporting it and all that stuff, here's a company that does exactly that. We'll save you a bunch of time and hassle, >> right? So it's actually actually ads you want. And and so the the interesting thing from a business perspective for people that don't care about coding or anything is like this is literally a
+
+00:13:06 - 00:14:04
+brand new advertising channel that has never existed. You know, ads for developers directly in their IDE or >> and you know the thing about developers is they're they're notoriously opposed like they're the first people that install the ad blockers and like are programmed from from birth to just be blind to all ads in all places. And so this is stuff that even developers want. That's super interesting. >> We thought people hate it and it turn it shockingly people love it and
+
+00:13:35 - 00:14:30
+advertisers love it. So we have like this. >> So wait, AMP is like actually free. Like there's no paid version. >> Well, so you can pay if you want, but it's getting to the point where it's like, well, why would you? The the free version is so good that I don't know why you wouldn't use it. We actually just today we also remove the need to train on your data to make it free as well. So now we don't train on your data at all and all you have to do is look at useful
+
+00:14:03 - 00:15:00
+ads and click them if you feel like it. So anyway, I don't want to talk too much about AMP cuz I know I'm not here to do that, but I I spent a decade teaching people how to code and the idea now that you have this literally free, infinitely intelligent being who is your, you know, tutor who's your pair programmer for free forever is just I I think it's one of the more game-changing thing that that that's happening right now. So >> I'm going to try it out. So I love this
+
+00:14:31 - 00:15:28
+idea. But I did want to ask you one question which is interesting. So everybody is using chat GPT and claude and all these tools and every time you do tokens are used and tokens cost money and it's true that some of these tools cost $20 a month for the basic version. But I think like if you use it a lot my assumption is these companies actually lose money. Like is that true or >> Yeah. >> Yeah. Is the whole industry losing money? So when you think about, you know, like a cursor or something like
+
+00:15:00 - 00:15:55
+that, are they like mega profitable or are they they're actually just subsidizing these tokens right now? >> I mean, and I and I respect and like the cursor team. I love the cloud code team. You know, these are all amazing products, amazing people trying to do the right thing. But the truth is is the majority of these businesses are are not profitable at all. >> Like unit economics not profitable? >> No, not at all. I mean, and because at AMP, we would charge the actual cost of
+
+00:15:28 - 00:16:12
+the tokens. Like, we we didn't even mark them up. So, the idea the the idea is we go to Anthropic, say, "We're going to buy, you know, $10 million of tokens from you." And they'd say, "Okay, we're going to give them to you 15% off." And then we would just charge market, right? So, we would make the 15% cut, but not because we're adding it to the tokens. We're just getting a discount. >> Super interesting. So basically what you're saying is that these tools should
+
+00:15:50 - 00:16:40
+cost 500 a month but they're currently being sold for 40 a month. >> Yeah. So there's there's going to be a reckoning at some point, right? And companies that are have, you know, literally billions of dollars in funding will be able to do this this token. >> It's not even arbitrage. It's like the early days of ride sharing where Uber andyft were so like it's like people stopped wanting to own cars because they're like this is so cheap. This is cheaper than owning a car. So, we
+
+00:16:15 - 00:17:07
+decided just not to play the game. It's like, you know what? Forget it. We'll literally make it free and make it, you know, ad supported and it's it's fun. So, this is why I this is why I joined AMP. I you know, I'm a founder entrepreneur. There's no way I would join a company unless I was able to act like an entrepreneur and and Quinn, our CEO, and Beyond, our CTO, who's co-founder, and Torstston, who's our our main developer. They're just extreme risktakers, but in the best sense,
+
+00:16:41 - 00:17:43
+right? Like, let's bet the company on this and let's see what happens. So, it's pretty fun. >> It's super interesting and thank you for the education on token economics. What's going on? You know, the conclusion that I kind of draw from all of this is this is to some extent the cheapest that AI might be for a while, right? like you said a reckoning at some point will come and you know maybe like fast forward 10 years it'll be cheaper but we will get to a point where like if you're getting
+
+00:17:11 - 00:18:07
+a ton of value on a you know from AI like this is the moment like you're getting it at a deal um whereas >> so what's going to happen is this right so the frontier models are always going to be expensive right so what's going to happen is you know we've got sonnet 45 which is the best agentic coding model in the world Okay, we're going to see probably Gemini 3 ship soon. It's going to be better. It'll probably be the same price, maybe a little cheaper cuz Google
+
+00:17:39 - 00:18:43
+always either subsidizes or because they use their TPUs like they make it cheaper. But the Frontier model is always going to be that price. And what will happen is there's always a fall-off on their little brothers and little sisters, right? So, you've got Gemini 2.5 Flash, which is a very good model. Like, it's I I use it in my product. It's so fast and it's very intelligent, but it's way cheaper. So, we're Gemini 25 flash for a message of reasonable length is about half a cent. Like,
+
+00:18:11 - 00:19:07
+compare that with the same message from Sonnet 45, that's about 10 cents. So what's going to happen is like you'll get frontier models that'll be expensive and then quickly you'll have these second tier models which are good enough for most businesses and they'll get cheaper but that that churn happens right so I think what we're seeing is this is basically what intelligence costs right and people should understand yeah you either pay for it or you use it or it's subsidized either by ads or by
+
+00:18:39 - 00:19:42
+venture capital dollars it's one of the two. Hey everyone, just a quick pause on today's episode to tell you about my day job. In addition to this new way, I'm the CEO of a company called Fellow.ai. And Fellow is an AI meeting assistant. It joins all your meetings. It summarizes them, tracks the actions and the decision, and does that better than any other tool that you've seen. We've spent a ton of time making sure that the meeting notes and summaries and action items that come out of Fellow are the
+
+00:19:11 - 00:20:07
+most accurate, the most precise. It beats any human. You have to try it. But in addition to that, what makes Fellow different is that it is the first AI noteaker built from the ground up with security and privacy in mind. This means that you can use it for all your meetings, not just the customerf facing ones, but also the sensitive ones, things like one-on- ones and executive team meetings and those QBRs and everything in between. It's got really good judgment. So, for example, if you start a meeting and you're talking about
+
+00:19:39 - 00:20:24
+some social stuff that you don't really want on the record that's going to get emailed to everyone afterwards, Bella just knows. It just doesn't include those things. [music] Or say you have something that you talked about and later on you realize, oh man, that shouldn't have been there. Makes it really easy. You can go back to the meeting, select that part, delete it, and then it's gone from the record. It connects to all of the other tools you use in the organization, whether that's
+
+00:20:01 - 00:20:58
+Slack or a Sauna or HubSpot or Salesforce or Linear or Jira or Confluence, whatever it is. Fellow integrates with all those things. I think the best part is that Fellow also acts as an AI chief of staff because it sits on all the meetings and the conversations that you have access to. You can ask it really cool questions such as what are the biggest opportunities in my company? What are the bottlenecks in engineering? And Fellow just pieces together information, sees trends, and it can answer those
+
+00:20:30 - 00:21:24
+sorts of questions. It can even do things like, hey, based on all of the one-on- ones that I've had with this particular person, can you create them a performance review? And it can do things like that, too. And the sky's is really the limit. What I really wanted you to do is have the opportunity to try out Fellow, check it out. And we're making a special offer available to all our listeners. So just go to fellow.ai/thisnew to try Fellow. There's a discount code in there for you if you decide to
+
+00:20:58 - 00:21:47
+continue with it. Either way, I would love for you to try it and let me know what you think. And with that said, let's go back to the episode. The beginning of every cycle, I think even in the beginning of the internet where people were shipping goods, that stuff was subsidized. Maybe shipping was charged, you know, people charge less for shipping back in the early days just to get the movement, just to get people to order and build the build the habits and find this new way of working. So,
+
+00:21:22 - 00:22:11
+super interesting. And so, the the startup that you're building inside of AMP, is it still the AI divorce lawyer type product? Okay, cool. Awesome. Is it live? What's the status? It >> it's live, but I'm not sharing it yet because it's in private beta, but um yeah, it's it's a business. It's a separate entity from AMP. So I have a really cool deal there where I can build my company while I work with AMP. But it's exciting. It's, you know, it's one
+
+00:21:46 - 00:22:48
+of these things because hopefully people that are listening are starting to have these ideas, right? So the everybody has expertise in something, right? And it's usually a hyper specialized or vertical industry, right? It may be floor tiling, right? Or it may be divorce, you know, in Connecticut or it could be anything. And you you used to not be able to monetize those things because they were too niche, right? But now you have people like me who are passionate about a subject and can build a specific
+
+00:22:17 - 00:23:16
+vertical solution um that is an absolute expert, right? And you don't need to be, you know, a $10 million business or a $20 million business to have a very good business and you can keep your headcount way low because of AI. So, we're in a brand new explosion of smaller vertically focused AI focused businesses, right? And now is the time to launch them. And this is why I'm on the show. It's like I I want to show people like you can do these things, right? You you don't need a computer
+
+00:22:47 - 00:23:42
+science degree anymore, right? You just need agency and you just need grit. >> Okay. So, yeah, with that said, let's let's switch to the demo portion. So this is amazing like to have someone like yourself built and sold three companies as a developer, business person, entrepreneur allin-one and you spent so many years teaching people how to code and now you're going to show us how to build programs without coding. So this is this is quite the treat. >> Yes, I'm going to try and it's and if
+
+00:23:15 - 00:24:00
+you're listening, we'll talk you through it. If you're watching, you're going to see code, but just know I'm going to talk you through it and and explain, you know, this is how this how this works. So, okay. All right, everybody. So, I'm going to walk you through how to build something very simple. I'll use AMP, but you could use any coding tool you like, but again, as we're talking about, AMP is free, so why not? >> And we're going to link to it in the
+
+00:23:38 - 00:24:26
+show notes, and it'll be in the newsletter. So, sign up at this new way.com, and we're going to send you the link to all these things, including AMP. >> Sounds good. So, what you're seeing here is AMP is on the right, and this is the orb, which is kind of fun. You can play with it. So this is AMP on the right and we're going to talk to it in a little bit. You can see we're on the free version here. On the left you have what's called a developer a development server. It that really just means that's
+
+00:24:02 - 00:24:51
+the thing that's running the code. When you when you put this thing on the internet or you deploy it, you won't have to worry about that. And then here on the left is is the app we're going to be building. Right now it's blank. It just it's kind of a placeholder. So I'm going to show you ideally in a couple steps, you know, how to build something pretty simple. Now, you know, as we talked about before, a lot of folks are using really great tools like Lovable or Bolt and and they're great, right? And
+
+00:24:26 - 00:25:23
+there's a lot of things you can build with those tools. But if you are thinking about starting a a business that's going to offer, you know, a specialized AI service or agent or or solution, you're most likely going to end up having to, you know, write the code, deploy the code, and maintain the code. And as someone who spent a decade teaching people how to code, who didn't know how to code, you can do this and it's even easier now because of agents. So, let's talk through a couple things.
+
+00:24:54 - 00:25:50
+So, I'm actually going to use another tool which I'm not being paid to say. It's called Whisper Flow. >> Whisper Flow. I I use Super Whisper, but yeah, same thing. >> It's great. So, I'm going to I'm going to tap a key and then I'm going to talk to it instead of having to type. So, I want you to build a simple onepage app that allows me to put in a news topic and then I would like the large language model to search the web and then give us a list of news articles or things that I
+
+00:25:23 - 00:26:23
+need to know that are happening about that topic and then display it on the page. Okay, now this isn't overly simplistic idea, right? You may want the subject matter to be something specific like say that you want to build an app for plumbers and plumbers need to know something specific about their customers in an area. You might specify that but we'll go kind of simple. So we're going to hit enter and we're going to let AMP start thinking about things. It's going to start looking through and understand
+
+00:25:52 - 00:26:49
+our codebase and and how to do that. So and this is the ad that I was talking about. If you want to click on that ad, you could, but you don't have to. So all right. So it's kind of interesting. You're you're seeing the agent, you know, read through files, think through things. We can actually expand the thinking here if we want to see, you know, what it's thinking about. Those of you that are newer to large language models and using AI, one of the big breakthroughs is that models went from
+
+00:26:21 - 00:27:14
+simple output to reasoning models. And so they're able to think through what they're doing and then base their actions on that. So you can see all of the the thoughts behind there. So we've already got some code. So when you see code, when you see a minus or a red, it means that it deleted some code. When you see green like this, it means that it added code. So it's added some code and it's removed some code. And you can see over here something's already changed, right? All right. New search
+
+00:26:48 - 00:27:40
+app. That's kind of cool. And now it's asking us if it can edit these files. We're going to say yes. We're going to allow it to edit the files. That's cool that it asks you for permission. Doesn't want like it's it's still learning and you're still trusting it. So, you're not going yolo with it just yet. >> I like a little bit of control and then I and then I I let go. So, it's right now thinking about how to make the demo, we'll see some things. I I assume if we
+
+00:27:14 - 00:28:06
+go over here, this is not going to work yet. Yep. Doesn't work yet. Oh, interesting. So, it's going to tell us what to do over here. So, we'll let this cook for a minute. You can see it's adding some more code. and setting some things up. There we go. I'm going to stop sharing, kind of talk you through what it's doing, and then when it's ready, I'll come back and show you how to do this and we'll go from there. That seems pretty cool. So, you were basically I mean, you just had a prompt.
+
+00:27:40 - 00:28:37
+You just explained what your topic was. You didn't go overly detailed. What I'm hearing now is if you really want to do this ju just like if you were working with a developer, you can tell them like you can maybe have like a two-minute conversation with them and have them go build something. But a lot of times when you do that, when the work comes back, it's not what you thought. It might be a little bit different. They might have understood the wrong thing. So the right way to do it is like create a full plan
+
+00:28:08 - 00:29:02
+that's you know pretty detailed step by step and go back and forth agree on the plan and when you're 100% sure that the plan is what it is then you go off and you know you actually get the work to be created. Do do you do that as well with when you're using AMP? >> Absolutely. So, what I was showing you is more just a quick let's get something up and running, which you probably would use lovable or bolt for that type of thing. But I wanted to show you you can also write real code, work with an agent
+
+00:28:35 - 00:29:31
+that generates real code and then maintain that code. And because you have this agent to talk things through, you can always ask questions and then problem solve. And in the end, you're going to build a more valuable business that way. So that's kind of why we started code first versus interface first. Now when it comes to planning and executing absolutely you're right. So what I'll usually do if I have a large feature that I want to add to the app for instance is I will I will turn on
+
+00:29:03 - 00:29:57
+whisperflow and I'll start talking about okay this is the type of feature that I want. This is how it should work. And then what I do is I have a file that I tag which is called generate prd which is product requirement doc. And I actually have a free GitHub repo that anybody can download these prompts and we can pop it in the show notes. So you tag that file which which means you tell the AI to look at it and it has instructions for creating a product requirement doc and basically it takes
+
+00:29:30 - 00:30:31
+all of your ramblings about this feature that you want and then it turns it into a systematic thoughtful product requirement doc and then you read it. Right? So I I think a lot of a lot of where most people fall down with AI is they'll say do this thing and then it generates it and then they send it somewhere or they you know and they don't read it right and you have to have the discipline still to read right and to think. So at AMP we always say you know don't outsource your thinking to
+
+00:30:00 - 00:30:56
+the agents outsource your work to the agents. >> Oh I love that. That's a great phrase that everybody should internalize. Outsource the work not your thinking. it because it's easy to outsource your thinking or what you think is your thinking, but there is a tremendous value in you as the human collaborating with the AI, not outsourcing your thought to the AI. So what you do is you use Whisper Flow, talk through your requirements, have it generate the PRD, then read it, and what you're going to
+
+00:30:28 - 00:31:34
+find is the AI misinterpreted some of your ideas or it had ideas that it wants to do that you don't or maybe it's making it too complex or you you will absolutely find problems. So then you read that and then turn on whisper flow again and say no I didn't mean that or cut that out or you know remove that bit you know and then you iterate and usually you have to do that 10 times. >> Mhm. >> Right. So so the other day I shipped a big feature for my app and you know it took me two hours to plan it.
+
+00:31:01 - 00:32:00
+>> Oh really? Wow. So that that's super interesting. You might spend two hours just planning. >> Yeah. it was writing not a single line of code, right? And because you end up realizing that a lot of your ideas were not fleshed out or they were unclear, right? And so they >> or maybe you didn't think about like some edge case that only occurred to you after reading the way that it was proposed to be built. >> Yes. So think about this like say you wanted to build a house, right? So, you
+
+00:31:31 - 00:32:23
+need architecture plans, you need plumbing plans, you need electrical plans, you know, you need all that. You need, you know, AC plans. And say that you just said to a carpenter or a builder, "Make me a house. Make it great, right? Okay, go." I mean, you can imagine that would never work, right? You'd say, "No, no, I need the bathroom over here." Or, "Actually, the kitchen's too small." Or, "What about like when we need to replace the shower someday?" you
+
+00:31:56 - 00:32:56
+know, the entire, you know, plumbing stack is in the middle of the kitchen. How's that going to work? Right? And so you you're would iterate with them and you'd end up with a much better plan. It's no different when you're creating apps and you and and even if you're not technical, this is the beauty is that you have a CTO now, right? But the CTO can't read your mind. It it, you know, doesn't know really what you want. Um, so collaborating with that CTO really unlocks, you know, everything. But it it
+
+00:32:26 - 00:33:35
+it takes work. So that's that planning phase you talked about. It's very important. And then what I do is I have a a I have three files in this workflow. It's called AI dev tasks. And the second file what it what it's a prompt and it basically says okay take this PRD that we just finished. Read it and now generate an atomic list of tasks in dot notation. So you know 1.0 1.1 1.2 2.0 0 2.1 to decide the implement how are you going to actually implement this right and then you read that and you'll find
+
+00:33:01 - 00:33:55
+like oh my gosh no I didn't mean that or or oh that's interesting I hadn't thought of that right iterate on that for an hour and then you've got a PR that's finished you've got a implementation plan that's finished and then you can say let's build it right and now we're in an age where agents really don't need you to hold their hand after that you know good agents like AMP can get the work done if you have a clear plan and then the world is your oyster. I mean, we're in this bonkers
+
+00:33:28 - 00:34:24
+time period where you actually can have ideas that are that are pretty technical and you can launch businesses that completely change industries with very little capital, you know, and probably bootstrapped in many cases. Hey everyone, hope you're enjoying the episode. One of the common things that we hear is, "Hey, you all talk about all these different tools. You walk through these demos. Sometimes it's hard for me to follow along." we decided to do recently was take all the things that we
+
+00:33:56 - 00:34:50
+talk about, put them in a weekly newsletter. We literally list all the tools, we link to them, and any demo that we walk through, we break it down step by step, put it in this newsletter, so it's super easy for you to follow along. And the other nice thing is that if there's someone on your team that you think could benefit, they're working on that subject area, they could use a little bit of AI injection into their workflow, send them the newsletter. Send them that particular episode. We make it
+
+00:34:23 - 00:35:18
+super easy to do that. It's free to sign up. All you have to do is go to this newway.com, enter your email address, and you'll get this weekly email from us. Hope you enjoy it. With that said, let's go back to the [music] episode. This is super interesting and although we're talking about code, even if in my opinion you're writing a document, so say you're using AI to write a memo or a document or a report or something, there's no reason that you shouldn't follow the exact workflow that you just
+
+00:34:51 - 00:35:46
+articulated, right? You should probably create a plan, should probably be a to-do list. And I think like this the same mentality, this is just a way to work with AI, with any sort of agentic system. This is the workflow. So people should use it even if they're not coding. >> Yes. And you know what's interesting? It's actually very similar to the way a good leader works with their team. And I think what we're all realizing is if we didn't like communicating before, we're
+
+00:35:18 - 00:36:12
+going to be terrible with AI. So I've become a much better communicator. I I used to just not have patience when it came to communicating my plans and ideas. Um and now I've realized that I have to be good at that. have to be good at at working through the plan and thinking through the plan and specifying the plan and then asking, you know, the agent to execute it. And I think this is what's gonna, you know, if you're listening, this is what's going to separate you from the other people that
+
+00:35:45 - 00:36:39
+are using AI, right? Because in this new world we live in, you can't compete period if you don't use AI, right? But then how do you compete with everyone else that's using AI, right? And the answer is you get good at planning. you get good at not outsourcing your thinking and using your experience and your knowledge to your advantage. >> You know, I've been thinking about this. There's this kind of dilemma which is if you're a manager, if you're a really good manager, you probably have the
+
+00:36:12 - 00:37:13
+skills to be really good at AI. If you apply yourself, you probably have the skills. The problem though is a lot of the innovation is happening at the doing layer and you're currently separated from the doing layer because your job is to manage and it's to manage people. But the problem is that the innovation is at the doing layer. So if you I think every manager should do this is to carve out a week of time a day a week or something to be an IC and to use their management skills to manage AI and then some pretty
+
+00:36:43 - 00:37:37
+magical things I think can be unlocked. >> Absolutely. You're right. It's like go to the gym and learn how to communicate better and learn how to manage better and how to [clears throat] give feedback better. It it's really funny, you know, I've been blessed, you know, manage a lot of people in my career and working with the AI has refined those skills and and actually revealed how bad I was at communicating my, you know, what I wanted to happen and and and how I wanted to be measured and how would the
+
+00:37:10 - 00:38:13
+employee or AI know they were successful. So this is the final kind of tip I'll share which is feedback loops. So say that you've planned right okay this is what we want. This is how we want it built. Well then then what how does the agent know if it was successful and how did how do you avoid having to copy and paste you know a thousand times to try to tell the agent what was right and what was wrong. So this is where you need to think in in what is in feedback loops. What is the most efficient way
+
+00:37:41 - 00:38:33
+that the agent can get its own feedback on its work, right? So, it depends what you're building, right? So, when you're coding, what you can do is you can say to the agent, I would like you to build a script that will test your work that you can run when you're done and you if you see errors, then you can fix it and I want you to loop until you don't have any more errors, right? Because otherwise, what you're going to be doing is the Asian says, "I'm done." and then
+
+00:38:08 - 00:39:02
+you test it and you say, "No, you're not." And you test it and you say, "No, you're not." And you do that for hours. Whereas the agent, and AMP is very good at this, is if you say, "I want you to write a script that does something that allows you to test yourself." And it's very good at that. It's pretty wild. It's like you have this selfhealing cycle that is just amazing. >> One question I have for you, and again, this is just like good practice. Even
+
+00:38:34 - 00:39:36
+before any of this stuff, you would have a checklist, right? Like a safety checklist, a pre-flight checklist or whatever else. And so you're just asking the AI to create these things, these test plans for itself. But one question I have is I I remember reading Jason Lemin was was doing building this like AI and was creating Yeah. test plans for for his the software that he was writing with AI. And then his AI was lying to him and saying, "Oh yeah, I passed all of the tests and he's running it and
+
+00:39:06 - 00:40:08
+it's like not working." And he's and the AI said, "Oh yeah, I made that up because I was afraid to disappoint you." [laughter] So is is that >> Yeah. Does that does that happen for you ever or is there a way to get around that? No, it does happen to everyone using AI because you know large language models were trained with with reward systems that are humanlike, right? So, in the same way that an employee is not going to want to tell you it failed, it's going to want to, you know, an
+
+00:39:37 - 00:40:37
+employee is going to want to figure out how to succeed or look like it's succeeding, right? Large language models are the same. Now, they're not humans. I don't want to anthropomory face them but they are trained in that way right and so the way to get around this is to write code uh to test your your work right so this is where so when you're coding you do have things called tests but the but the thing about tests is you can fudge them or delete them whereas if you have your agent write a script that
+
+00:40:07 - 00:41:04
+does a thing and then the agent can check the output of that script it's much less likely to lie to you. It's sort of like if you have a pool, right, and you're like, "All right, pool person, I need you to test the pH in my pool." It's kind of data driven, you know? They show you the swab stick. And it's like, it is what it is, right? So, you need to figure out these feedback loops that give you truth. And and again, this is a skill we all have to learn, right? And and if if people want
+
+00:40:36 - 00:41:26
+to be successful in this new AI age, which I'm sure everyone listening does, you have to learn. And this is where you have to not outsource your thinking. Okay, I want the agent to do this amazing thing. How can it test itself? And sometimes you can talk to agent about that. All right, let's figure this out. I need a way for you to test the output of whatever this work is that we can know factually if you're done and correct. Um, and because agents are amazing at writing code, it will
+
+00:41:01 - 00:41:55
+probably write a really good script to help you do that. And it can run that script itself and all a sudden you've done a week of work, you know, in a day. So, >> so everybody can get started. They can go check out AMP. It's free. They can they can start to build >> code for free. >> Code for free. Try this kind of thing. And I would even say like once you learn if you if you have young kids like do do this with your kids too. Get them on boarded with this idea. I mean you your
+
+00:41:28 - 00:42:22
+background is you know education and and you said you had Treehouse and it taught people how to code. So what like for for people who want to say I want to get my kids to be AI native and start building things. What would you recommend? What would you recommend to them? Well, the thing that that probably all of you are already doing is getting a family chat GBT account, right? So, so start there, right? And the idea there, you know, a lot of our kids schools unfortunately are discouraging AI, you
+
+00:41:55 - 00:42:45
+know, and I don't blame them. It's like they have a lot of kids that are trying to do their homework instead of using AI properly. But so, I think as parents, we need to say, okay, we're going to be AI first in this home and we're going to teach you how to use AI effectively. And so what we do at my house is you know everybody has chat GPT and you know we'll be having discussion. It's like okay well let's let's ask you know the large language model that and see what
+
+00:42:20 - 00:43:10
+we get. Okay well let's think about the result we got. Is it trustworthy? Why or why not? Right? And this is where you teach them about hallucination. Okay. The model is only as good as the context that it has. Does it have the right context? We don't know where this context came from. So that means we can't trust it. So it's just teaching them. It's like you say, "Don't run across the road without looking right and left. Don't use the AI unless you know where the context came from." So,
+
+00:42:45 - 00:43:36
+there's all these things that unfortunately none of us grew up with that we're all learning now that we need to pass on to our kids. One of the more dangerous thing is is that they actually believe all the negative hype about AI, right? That it's going to take all the jobs and that it's going to, you know, destroy creativity. And none of these things are true. They're all designed, you know, to be clickbait. when the truth is it's going to augment everybody that is agentic themsself right so it's
+
+00:43:11 - 00:44:07
+like teaching them how to do that you know teaching them like let's not outsource our thinking here you know let's take a minute and try to solve the problem in our head and then ask the AI you know what it thinks about it and help us you know work through that problem and see if we miss anything so [clears throat] that's kind of thing one I would say the other thing is just helping them understand now that they can create so much more and that they can build so much more. So, those are a
+
+00:43:38 - 00:44:35
+couple things and then it's like, you know, don't take the cheaty easy route. You know, it's easy now to get AI to do some things that you should be doing yourself. How do you have the discipline to do that? We as adults have this is hard for us. So, it's going to be hard for our 15year-old, right? So, those are a couple things I think about. It's a pretty wild time to be alive. I mean, I I honestly feel like, you know, this is like going back to the moment folks figured out what an integrated circuit
+
+00:44:06 - 00:45:05
+was. I mean, and it changed everything, right? We're not just at, you know, the year 1996 where the internet really started to happen. We're at, you know, 1950 when the integrated circuit was invented. Like that's how big this is. And it's very exciting. But, you know, it's just like how lucky are we? we're actually alive and we're the right age to be able to adapt and understand and use this technology and it might never happen in human history again. >> It's a pretty pretty spectacular time.
+
+00:44:36 - 00:45:32
+Usually I ask what are you most excited about but I think you just answered that question. So [laughter] so so this is great. So Ryan, thank you so much. I mean this was awesome conversation. We'll put all of the links in the show notes and and also your prompt library. We'll also put that in the show notes so people can check out how you do development and get get a glimpse of that. And and of course whenever you're you're out with a product and if you want to demo it, we we'd love to see it.
+
+00:45:04 - 00:45:49
+So please come back and and show us the product when it's live. >> Yeah, I'd love to if you want to chitchat to me, just hit me up on on Twitter. I'm just Ryan Carson or on LinkedIn, I'm Ryan Carson. Chat me up and let me know if you need help with any of this stuff. >> All right, thanks for coming on. >> Thanks a lot. And that's it for today. Thank you so much for tuning in to this episode of This New Way. If you like the content, be sure to rate, review, and
+
+00:45:26 - 00:45:40
+subscribe so you can get notified when we post [music] the next episode. See you next time.
